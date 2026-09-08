@@ -50,10 +50,9 @@ _CYR_SPECIAL: dict[str, str] = {
     'Ъ': '[',   'Ь': ']',   'ё': '`',
     'э': '{',   'ы': '|',   'я': '}',
     'Ы': '\xa1',
-    '-': '#',
     'ь': '&',
     'ъ': '+',
-    'Ю': '-',
+    'Ю': '%',
     'ю': '$',
     '—': '#',
     'Я': '>',
@@ -91,7 +90,7 @@ def apply_ru_f(text: str) -> str:
 TARGET_COLUMNS = {'TL', 'TLC', 'Edit'}
 
 # Листы, которые нужно полностью пропускать — не читать и не изменять никак.
-SKIP_SHEETS = {'hayami_aa13', 're_otoha_01c'}
+SKIP_SHEETS = {}
 
 
 def find_header_row(ws) -> tuple[int, dict[str, int]]:
