@@ -61,8 +61,8 @@ _CYR_SPECIAL: dict[str, str] = {
     '—': '#',
     'Я': '>',
     'Ё': '<',
-    '«': '"',
-    '»': '"',
+    '«': '^',
+    '»': '@',
     'Э': '=',
     'Й': 'J',   'й': 'j',
 }
@@ -241,6 +241,9 @@ def translate_xlsx(input_path: str, output_path: str, preview: int = 0,
             src_cell = row[tl_idx]
             val = src_cell.value
             if val is None or str(val).strip() == '':
+                orig_val = row[orig_idx].value if has_orig and orig_idx < len(row) else None
+                if orig_val and str(orig_val).strip() and any(c.isalnum() for c in str(orig_val)):
+                    print(f"    [!] ПРОПУЩЕН перевод (строка {row_idx}): {str(orig_val)[:70]!r}")
                 continue
 
             original_tl = str(val)
