@@ -7,10 +7,10 @@
 ## Статус
 
 **Progress:**
-`[███████░░░░░░░░] 50%`
+`[██████████░░░░░] 70%`
 
 - [x] Полный перевод
-- [ ] Перевод графики
+- [ ] Перевод графики (частичнй)
 - [ ] Редактура
 
 [Таблица с переводом](https://docs.google.com/spreadsheets/d/1W_IoG1-Khw1V3mISkmLECusFw5K96owc/edit?usp=sharing&ouid=103224880279791937700&rtpof=true&sd=true)
@@ -25,18 +25,9 @@
 Для распаковки используем [GARbro](https://github.com/morkt/GARbro/releases/tag/v1.5.44) и распаковываем все файлы из data01xxx допустим в папку H2o_ORIG.
 Получаем папку со скриптами. 
 
-Скачиваем таблицу с переводом и используем ru_f_translate.py
+Скачиваем таблицу с переводом и запускаем `build_patch.bat`
 
-```Python
-py -3.10 ru_f_translate.py h2o_full.xlsx
-```
-Получаем h2o_full_ruf.xlsx
-
-Для введения изменений используем [VNTextPatch](https://github.com/arcusmaximus/VNTranslationTools) с командой 
-```cmd/powershell
-VNTextPatch.exe insertlocal H2o_ORIG h2o_full_ruf.xlsx output
-```
-Копируем файлы из output в patch и готово!
+Копируем файлы из `h2o_OUT` в `patch` и готово!
 
 ### Графика 
 Для редактирования графики используется BgiImageEncoder.exe и результат так же закидываем в patch 
