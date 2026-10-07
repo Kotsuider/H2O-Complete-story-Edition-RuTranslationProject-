@@ -44,7 +44,7 @@
 
     "window_manager": {
     "enable": true,
-    "overwrite_title": "H2O √after and another Русификатор версии 0.3",
+    "overwrite_title": "H2O √after and another Русификатор версии 0.3.1",
     "process_existing_windows": true
   }
 }
