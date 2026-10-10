@@ -10,7 +10,7 @@ if errorlevel 1 (
 
 echo.
 echo [2/3] Patching Ethornell scripts...
-python ethornell_tool.py insertlocal h2o_der h2o_ruf.xlsx h2o_OUT sjis_ext.bin --wrapper monospace --line-width 48
+python ethornell_tool.py insertlocal h2o_der h2o_ruf.xlsx h2o_OUT sjis_ext.bin --wrapper monospace --line-width 50
 if errorlevel 1 (
     echo Error during script patching!
     pause
