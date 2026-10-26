@@ -1,8 +1,13 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-10-26T23:00:43.9207807Z",
+  "generated_at": "2026-10-26T23:31:48.6015263Z",
   "version": "0.4.0",
   "files": [
+    {
+      "path": "ПроверкаОбновленийПеревода.exe",
+      "sha256": "17aa7a233a881ba9a2eee295d72765946e837cbd176c497853e2bf17fd9565a0",
+      "size": 64877911
+    },
     {
       "path": "patch/bg0006a_l",
       "sha256": "b818b21fbc2eed34a07b4a1d55686e02f663349c40610aa6fd1103d6c5c75d87",
@@ -712,6 +717,11 @@
       "path": "patch/Setup00",
       "sha256": "e7afcb6c210bcc9e6ef212c64df82f9770f355a2fee13c56eccdbccadd8e2529",
       "size": 8906
+    },
+    {
+      "path": "patch/SGAtogeh000000",
+      "sha256": "202680e621333f1cd625c7bd035486701c1732c96cca8b2b16961add36d895a3",
+      "size": 200177
     },
     {
       "path": "patch/SGCnfgWnd000000",
