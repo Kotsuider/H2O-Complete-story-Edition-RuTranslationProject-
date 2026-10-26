@@ -1,0 +1,38 @@
+{
+  "version": "0.4.0",
+  "game_title": "H2O ~Footprints in the Sand~ √after and another",
+  "check_process": "BGI.exe",
+  "manifest_url": "https://raw.githubusercontent.com/Kotsuider/H2O-Complete-story-Edition-RuTranslationProject-/main/TrnTools/manifest.json",
+  "files_base_url": "https://raw.githubusercontent.com/Kotsuider/H2O-Complete-story-Edition-RuTranslationProject-/main",
+  "updater": [
+    {
+      "state": "true"
+    }
+  ],
+  "fixes": [
+    {
+      "state": "true",
+      "id": "install_font_cyrillic",
+      "name": "Шрифт OUCTSfontD1 (Кириллица)",
+      "file": "OUCTSfontD1.ttf"
+    },
+    {
+      "state": "true",
+      "id": "install_font_glagolic",
+      "name": "Шрифт OUCTSfontG (Глаголица)",
+      "file": "OUCTSfontG.ttf"
+    }
+  ],
+  "glagolic": [
+    {
+      "state": "true",
+      "id": "change_font",
+      "name": "Смена шрифта в ВН на глаголицу",
+      "file": "config.json"
+    }
+  ],
+  "backup": {
+    "enabled": true,
+    "backup_dir": "Backups"
+  }
+}
