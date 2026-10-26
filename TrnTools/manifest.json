@@ -1,12 +1,12 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-10-26T23:31:48.6015263Z",
+  "generated_at": "2026-10-26T23:41:58.6071669Z",
   "version": "0.4.0",
   "files": [
     {
       "path": "ПроверкаОбновленийПеревода.exe",
-      "sha256": "17aa7a233a881ba9a2eee295d72765946e837cbd176c497853e2bf17fd9565a0",
-      "size": 64877911
+      "sha256": "b7db7e3da578da98555a76e433ba60ab32456eac50379e769921f905a844078d",
+      "size": 64914000
     },
     {
       "path": "patch/bg0006a_l",
