@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-10-27T01:29:11.3473969Z",
+  "generated_at": "2026-10-27T09:19:28.9997865Z",
   "version": "0.5.0",
   "files": [
     {
@@ -1397,6 +1397,41 @@
       "path": "patch/SGAtogeh000000",
       "sha256": "202680e621333f1cd625c7bd035486701c1732c96cca8b2b16961add36d895a3",
       "size": 200177
+    },
+    {
+      "path": "patch/SGAtogeh000100",
+      "sha256": "cebff5047127b9f16e534de10bd5b5279a0c8f6e15eef7210f089d598f305bb3",
+      "size": 191193
+    },
+    {
+      "path": "patch/SGAtogeh000200",
+      "sha256": "c1bebca1bb7bebe524e772fe69368afefd51af3e84d6805a8ef5bae05e58d78c",
+      "size": 189927
+    },
+    {
+      "path": "patch/SGAtogeh000300",
+      "sha256": "4a12d1a7d77887f88369f711ac85bbba3b3585503667ae0c098de96922a51f96",
+      "size": 207849
+    },
+    {
+      "path": "patch/SGAtogeh000400",
+      "sha256": "698a87297809a517c3d2dd91959f019ae056b4b500440d7c6b01f8b0faa16dc9",
+      "size": 205453
+    },
+    {
+      "path": "patch/SGAtogeh000500",
+      "sha256": "10d265edfc926c15b404793f1fa0d4aab50bbcc25c3504d7b3bab96c1bcbe114",
+      "size": 175203
+    },
+    {
+      "path": "patch/SGAtogeh000600",
+      "sha256": "0dab6cd6dfa2f5d96bde0424c2c03b8a20409e3137b6611c22eb128ffa216eba",
+      "size": 209769
+    },
+    {
+      "path": "patch/SGAtogeh000700",
+      "sha256": "3ad1d74001ba3ac272512d0670231e7064232e5b177a9e525fdf8da8229338d5",
+      "size": 198755
     },
     {
       "path": "patch/SGAtogeh990000",
