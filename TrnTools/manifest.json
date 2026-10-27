@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-10-27T00:01:04.5889178Z",
-  "version": "0.4.0",
+  "generated_at": "2026-10-27T01:29:11.3473969Z",
+  "version": "0.5.0",
   "files": [
     {
       "path": "ПроверкаОбновленийПеревода.exe",
@@ -14,14 +14,674 @@
       "size": 729019
     },
     {
+      "path": "patch/day001",
+      "sha256": "b35cbc10ac2934ff4590b30e909d8e17d6f5f3432fcb43173490edfb87dbb628",
+      "size": 53148
+    },
+    {
+      "path": "patch/day002",
+      "sha256": "ebb6a7071e05e9e7d9afc049c3b0bc478dc5b35dd97ed9281ac3542bf3aaf019",
+      "size": 358516
+    },
+    {
+      "path": "patch/day003",
+      "sha256": "4b6e43fa8ad5c09ef94c061bd6c9d3dae58f3b4157987c8dd5082898f986dee1",
+      "size": 214544
+    },
+    {
+      "path": "patch/day004",
+      "sha256": "88badc69aa685918862fb6b4f865dbf35689f85a6ba75ae99db35937d2c09233",
+      "size": 267694
+    },
+    {
+      "path": "patch/day005",
+      "sha256": "d4d17c072b812eb1b8060dcb36620c8e70aa1c8fb2dc84c0769dd590af2dd599",
+      "size": 246813
+    },
+    {
+      "path": "patch/day006",
+      "sha256": "a939118acaf4bd80dab0023b25e5190ba09b5e87da117b67751d20b633b5012b",
+      "size": 326067
+    },
+    {
+      "path": "patch/day009",
+      "sha256": "db855ab9799d13188051d23abb9346f18acc1a4ca4bf38c3504b0fddfa40a728",
+      "size": 343272
+    },
+    {
+      "path": "patch/day101",
+      "sha256": "1864a464caf7496d1222b21eda0187c5d7359fce63e8a587eabb77d5479db36d",
+      "size": 41413
+    },
+    {
+      "path": "patch/day102",
+      "sha256": "463f4a6edfbb16998d65e309a11be6830c7361b28ec3ca73a6c58c4404dcacda",
+      "size": 331240
+    },
+    {
+      "path": "patch/day103",
+      "sha256": "2f85801ba764bba957f1121256a05d55a73c76346ea6ac84cdad4cd975a1041f",
+      "size": 298066
+    },
+    {
+      "path": "patch/day104",
+      "sha256": "1e29626d1d3058e2f5b73ed2ef5a409518c531bf38785a215e9ab6fe6125e787",
+      "size": 266670
+    },
+    {
+      "path": "patch/day105",
+      "sha256": "1a3514b1e3cf5101aff84880e31ac94a9af60224a145e7efc1f8831450b565aa",
+      "size": 289868
+    },
+    {
+      "path": "patch/day106",
+      "sha256": "bb8f5a0dcf58434ad06231ac6676e79a7a3a31efa4405ee7e399cd904ca328b4",
+      "size": 173249
+    },
+    {
+      "path": "patch/day107",
+      "sha256": "cf2f66ab8bd2b7c8223600572cd191fa4bd646529c3d29f41eac97bafdb88ea2",
+      "size": 215066
+    },
+    {
+      "path": "patch/day201",
+      "sha256": "b0804e892ebb38754ea4c328f6867fcbb3a8fe2287b21ef4649620d6cf2a8659",
+      "size": 290721
+    },
+    {
+      "path": "patch/day202",
+      "sha256": "d13ae189681137ac1757f8c978b3b712d378303217297d81954b91359a07c3d4",
+      "size": 254113
+    },
+    {
+      "path": "patch/day203",
+      "sha256": "9c8c4f8eb42a1ed973621cc2e3c189aeb03826301550587ec2ecdd1f12f2d007",
+      "size": 301673
+    },
+    {
+      "path": "patch/day204",
+      "sha256": "3b4da48d41e85aadf6fd44baedfac0937c6f65bd35a3190dc404b1f3ac1abf8c",
+      "size": 261506
+    },
+    {
+      "path": "patch/day205",
+      "sha256": "27510d9996e70af299172f292586427c6fbd0ef542635e3c20ea6e2ad0247449",
+      "size": 249391
+    },
+    {
+      "path": "patch/day206",
+      "sha256": "e1051f7b9fd90fc235aff7ab4be2b972e546b3210c1b8619fb20d491cf76c54f",
+      "size": 262469
+    },
+    {
+      "path": "patch/day207",
+      "sha256": "d2afc06ba0de72a9734a23510416a95b3c03d5f0ad85b44dd4d520f37101f5eb",
+      "size": 215229
+    },
+    {
+      "path": "patch/day208",
+      "sha256": "b45ad4160355a8ffd0e60a0c0b4e86d11f2b7241f726400f9be8c2c81ab8380e",
+      "size": 262612
+    },
+    {
+      "path": "patch/day209",
+      "sha256": "5d2bfd73718ae7c8d78273b9c17d4630229d8c76686a0c220b282be71cfe0d6c",
+      "size": 302534
+    },
+    {
+      "path": "patch/day210",
+      "sha256": "ca85d2832823bf71a6da43ab03de20841b4e5a52bebb5adaff3ba98d8bf0c171",
+      "size": 262579
+    },
+    {
+      "path": "patch/day211",
+      "sha256": "33a47794a83d9b760fe452d8bfd22fe2e2436c4ab6a25d6897bd8a0b96cb5284",
+      "size": 286848
+    },
+    {
+      "path": "patch/day212",
+      "sha256": "e255c8975b007e401e143744d281210c5b6ab78bbf2ad5ca7567536d7698248f",
+      "size": 35238
+    },
+    {
+      "path": "patch/day301",
+      "sha256": "f4e01f3c44dbb3e94bf0a2049423de6f0da32d62b3dbd2f4c6c9f4d9b01663f6",
+      "size": 41290
+    },
+    {
+      "path": "patch/day302",
+      "sha256": "8fa27eb4418c2d63eb16ce1b6b259bbe7dfb6f984255006e34ca7471b55e7c54",
+      "size": 249237
+    },
+    {
+      "path": "patch/day303",
+      "sha256": "226da73877ce94f1271753b92375f647fea0a1526d97a0cdc56d0b34dbe42981",
+      "size": 354370
+    },
+    {
+      "path": "patch/day304",
+      "sha256": "bda38d79dacd64c94808ddcb1cb779eb439ca4f8365d169697c06840d8e9f235",
+      "size": 285262
+    },
+    {
+      "path": "patch/day305",
+      "sha256": "db0169cbc56aca7c18183a719beedc5b7dece1c60e15dd1ce42faa3c55419548",
+      "size": 206791
+    },
+    {
+      "path": "patch/day306",
+      "sha256": "494fc20d8eff30b0697dcb5386d78b39aea5cbe8cbc9dffebcef1514b997df92",
+      "size": 292552
+    },
+    {
+      "path": "patch/day401",
+      "sha256": "fd717a259702f4d2c16183c01fb2c82eace1ca7c6268ac43ea8be4f58f70c8a4",
+      "size": 301452
+    },
+    {
+      "path": "patch/day402",
+      "sha256": "18d156218abfe8bd6012d68eb275e7c23ebf6affb1d19ebdc7e65ce4ba93e05c",
+      "size": 208048
+    },
+    {
+      "path": "patch/day403",
+      "sha256": "d5fbf530eabc6557412c447eea90931615e46f38ee025fd8afaa12b4e62ed14a",
+      "size": 197544
+    },
+    {
+      "path": "patch/day404",
+      "sha256": "d0b3bac3e15776a1e015ceee69c62175a4ae3d46a5004af709f7d375066e2164",
+      "size": 373766
+    },
+    {
+      "path": "patch/day405",
+      "sha256": "e2147bd574d4b026d9fefaf9b7da91e8d7d3d988ea1097aa90b2fd3a466b8037",
+      "size": 38620
+    },
+    {
+      "path": "patch/day501",
+      "sha256": "8e74eaffc7c0a90241dfb1cb913af78bdb759c05c693f661927d870269d6535d",
+      "size": 197889
+    },
+    {
+      "path": "patch/day502",
+      "sha256": "b4dcccc2071e0c1ac88b71a58599b530ae2abd60edb0bcea09b02ebd2dfb443b",
+      "size": 199496
+    },
+    {
+      "path": "patch/day503",
+      "sha256": "f1fd0d2e04b4e79975bf19044109184ba219932de33e29a861efed7ebc0fa496",
+      "size": 272940
+    },
+    {
+      "path": "patch/day504",
+      "sha256": "9e9d6aa5e99ba172c266117bc20e6416507260203a3cab7e57be3dd6c08f156c",
+      "size": 286081
+    },
+    {
+      "path": "patch/day505",
+      "sha256": "33234c3c5a8aca7849e4c52dbe485adca1f0ccf331147a875848370a0e01f112",
+      "size": 262600
+    },
+    {
+      "path": "patch/day506",
+      "sha256": "bc875c391bace44fe4d131ff0f2cd1258ecdf769b5731ac8e6d9ecc15ce20f3e",
+      "size": 268304
+    },
+    {
+      "path": "patch/day507",
+      "sha256": "308269f4ff5ebb4dad663e1cc9a19baee4a4e70943f437a207c4c2deb409e282",
+      "size": 261124
+    },
+    {
+      "path": "patch/day508",
+      "sha256": "5e6fe517d54b9a027647a6076b7f5720fb364b4f8481d9d7f8b1eb154515aeba",
+      "size": 279880
+    },
+    {
+      "path": "patch/day509",
+      "sha256": "c128127178c5a1fff79f66e43b47ab77009f763e99f30007de9d9bda83967052",
+      "size": 174431
+    },
+    {
+      "path": "patch/day510",
+      "sha256": "4719591cf4f11e72fa432328c0b0a9a6e731e0b40fee3ebae3ae97ef938c106c",
+      "size": 308820
+    },
+    {
+      "path": "patch/day512",
+      "sha256": "f6565f59b73a5d6fcd9c7ef272f23b667bbb6dff7cace0edeefa48a8589c9a3f",
+      "size": 324980
+    },
+    {
+      "path": "patch/day513",
+      "sha256": "72bad1cb5f81ba6995e1d4e4e52d00074dbd439a8447ff6a8f13bdb92b01e48d",
+      "size": 233520
+    },
+    {
+      "path": "patch/day514",
+      "sha256": "8ebb7e9329904493d99a643780ab9bc2240b32bbbcc0bc5b6d87740144e2ce90",
+      "size": 286781
+    },
+    {
+      "path": "patch/day515",
+      "sha256": "9c493d5a7173344d04ee834497c58bb63a302fd07bde14dea960a86ec6487e05",
+      "size": 267564
+    },
+    {
+      "path": "patch/day516",
+      "sha256": "f85e2bd02ccd9b0fa9e45d3376ed32ac6f991ba760f956bf6dd07e48eb7d0533",
+      "size": 339728
+    },
+    {
+      "path": "patch/day601",
+      "sha256": "99749ffb7ad652ccad8c2c219e14037abb2c294020035b4568a71c0b6756c57c",
+      "size": 175645
+    },
+    {
+      "path": "patch/day602",
+      "sha256": "0a7b6208110a3e876a3fca63d5da0ddc365ce5f35a1b17b62be133751c579d1d",
+      "size": 281116
+    },
+    {
+      "path": "patch/day603",
+      "sha256": "dc9dc43711c745c28f4fc8063529bfabb13aa1741694e5d1799341c78dfbb45e",
+      "size": 300376
+    },
+    {
+      "path": "patch/day604",
+      "sha256": "022e22333d258d4a3714534b640fe5f22cd52a62c0fec3255f299984c7703c3c",
+      "size": 270512
+    },
+    {
+      "path": "patch/day605",
+      "sha256": "d3424512d49cd9a39f9a0de32ac46d849dd3aa86454e8c80062ccb02003f4eb3",
+      "size": 239422
+    },
+    {
+      "path": "patch/day606",
+      "sha256": "13477d531534434f2f617e57231bd93c398ee2bae3164b2660cabf91a03f0b28",
+      "size": 312783
+    },
+    {
+      "path": "patch/day607",
+      "sha256": "84cc364c7eaa0dd47c363380453069356a875e2ad81fdfc84e8470289fca6500",
+      "size": 284021
+    },
+    {
+      "path": "patch/day608",
+      "sha256": "5964b247a52b50edbad0cf9c6ea4211758746069eff0365a67f1239b5aa894ba",
+      "size": 31524
+    },
+    {
+      "path": "patch/ev0054b",
+      "sha256": "d6b3502840064972aabd2f9d9807db1dd3a806722505ea4523387d1f7c0ff53e",
+      "size": 543289
+    },
+    {
+      "path": "patch/ev0054c",
+      "sha256": "d91759d88ccc8e476c1de2f2f79a5646e8cee7c1ff6ccdd6c2b0c114e995842b",
+      "size": 579842
+    },
+    {
+      "path": "patch/ev0054d",
+      "sha256": "b524192a2514c90c4e6fb04bcb99a7be85b14d71c20408008ebda510bfc17ee4",
+      "size": 585587
+    },
+    {
+      "path": "patch/ev0207",
+      "sha256": "8903d1d06dea70d681e737b8f5f42062c03fa5f155780d6570ce3fdb4b6f490c",
+      "size": 602026
+    },
+    {
+      "path": "patch/ev0209",
+      "sha256": "fb063e60cd8f4992006e334ccd89ef92802dbb2fdd0f8b53e71265b9c5d12811",
+      "size": 25164
+    },
+    {
+      "path": "patch/ev0218b",
+      "sha256": "715d11708c466f6a7c7fb17470a8eba0436f977b6c520a378840d361ec8ffa8a",
+      "size": 121235
+    },
+    {
+      "path": "patch/ev0501",
+      "sha256": "b5192293e649fac9ae57dd7bea3e1e2876e5ec3ce7e03f97df1385422953b0d7",
+      "size": 210704
+    },
+    {
+      "path": "patch/ev0501_l",
+      "sha256": "b5192293e649fac9ae57dd7bea3e1e2876e5ec3ce7e03f97df1385422953b0d7",
+      "size": 210704
+    },
+    {
+      "path": "patch/ev0502",
+      "sha256": "89a62d8958604dc1e237125dd702cbe58a7e335e15405bcd8c7e2ed5fbf46f33",
+      "size": 166745
+    },
+    {
+      "path": "patch/ev0502_l",
+      "sha256": "89a62d8958604dc1e237125dd702cbe58a7e335e15405bcd8c7e2ed5fbf46f33",
+      "size": 166745
+    },
+    {
+      "path": "patch/ev0503",
+      "sha256": "b1dd2c85531d78b5fb1e94fd8a722c47c294722ce1d6f2680bd45a6effe3bb8f",
+      "size": 299654
+    },
+    {
+      "path": "patch/ev0503_l",
+      "sha256": "b1dd2c85531d78b5fb1e94fd8a722c47c294722ce1d6f2680bd45a6effe3bb8f",
+      "size": 299654
+    },
+    {
+      "path": "patch/ev0504",
+      "sha256": "aa0f79151ae0f2509204e3de824dcc202f9922b573acc31ad1673f2ac2e642a4",
+      "size": 219202
+    },
+    {
+      "path": "patch/ev0504_l",
+      "sha256": "aa0f79151ae0f2509204e3de824dcc202f9922b573acc31ad1673f2ac2e642a4",
+      "size": 219202
+    },
+    {
+      "path": "patch/ev0505",
+      "sha256": "0ac0f156fb837dec84fce0b1143fc79e496309bc84be5804ba86e944cc408ae4",
+      "size": 181106
+    },
+    {
+      "path": "patch/ev0505_l",
+      "sha256": "0ac0f156fb837dec84fce0b1143fc79e496309bc84be5804ba86e944cc408ae4",
+      "size": 181106
+    },
+    {
+      "path": "patch/ev0506",
+      "sha256": "2cbcde972c58eb819067dff81075aa7516a8282a1652bddf40a860bd507d59a4",
+      "size": 265815
+    },
+    {
+      "path": "patch/ev0506_l",
+      "sha256": "2cbcde972c58eb819067dff81075aa7516a8282a1652bddf40a860bd507d59a4",
+      "size": 265815
+    },
+    {
+      "path": "patch/ev0507",
+      "sha256": "8a16633e28d06f930b9e3cfc4dbc29b40a0faa376daf20eb85b2e8e3382eb5c0",
+      "size": 253051
+    },
+    {
+      "path": "patch/ev0508",
+      "sha256": "9bd491bd8c02149383b21cf4046d639696999f7611b519964457043ed0614f62",
+      "size": 281306
+    },
+    {
+      "path": "patch/ev0511",
+      "sha256": "6b8c4b18ede390105f047b6a5043f21f9408aaa7540e73eff060f30880385477",
+      "size": 349947
+    },
+    {
+      "path": "patch/ev0512",
+      "sha256": "904698ee372b478a3fe2d92199888a58cb414659e3cb7996950486ada90eefbc",
+      "size": 210581
+    },
+    {
+      "path": "patch/ev0513",
+      "sha256": "3e6103405e2c36f816815bdecb53cb084b8305f3dced6572d7d391eb7235c2a4",
+      "size": 252519
+    },
+    {
+      "path": "patch/ev0514",
+      "sha256": "c20f74f04aa4d2317d0616d529af213c82faf5dc5651fe69285e8735d73e15a7",
+      "size": 193454
+    },
+    {
+      "path": "patch/ev0515",
+      "sha256": "3bb0399954f7b274bf6dbac487a31dfb4f75899d7a662687601b7813444a18cd",
+      "size": 248918
+    },
+    {
+      "path": "patch/ev0516",
+      "sha256": "79fc93397ba2aefb0f82c7b5eb47b3b1e9091eea2e31b70cd0599473015a6076",
+      "size": 248608
+    },
+    {
+      "path": "patch/ev0517",
+      "sha256": "6ea52031796ccbd19b86fef328c3717130bb5191c68a5dac98a30eb606cf7d1d",
+      "size": 265908
+    },
+    {
+      "path": "patch/ev0518",
+      "sha256": "fda4cd491b956742ae59e0d491d383505105ea4162422fc5f9e063e33ee6f5e1",
+      "size": 275188
+    },
+    {
+      "path": "patch/ev0521",
+      "sha256": "8daaece054a67e2d8f2f080752ce348cac7824a60c0cc2f5ab4144723eec0850",
+      "size": 157094
+    },
+    {
+      "path": "patch/ev0522",
+      "sha256": "a383b58a75eac2e0982e2c981da203f8fe4d36e5acc39402c6190e079fe5ece5",
+      "size": 281808
+    },
+    {
+      "path": "patch/ev0523",
+      "sha256": "c1c6a50a75ae68f1badb2c31b127b402a14041862ec9d5d99a1198cc217e7135",
+      "size": 249511
+    },
+    {
+      "path": "patch/ev0524",
+      "sha256": "93ef978fa5da2e3b4e84b6ad811ba10eac135c28fa7f37fa5b662bfee46a12ec",
+      "size": 231767
+    },
+    {
+      "path": "patch/ev0525",
+      "sha256": "cb6587d5647ab0b680679665260690339f4c2562645fa3ea68d35f0d571959d7",
+      "size": 181882
+    },
+    {
+      "path": "patch/ev0526",
+      "sha256": "00bfadb17dc864ae9124bf33feadde5db2784e26358b65b7e03f98cd55da692c",
+      "size": 299707
+    },
+    {
+      "path": "patch/ev0527",
+      "sha256": "b0989d23221a074151bc9348da73131a39fa258a98faac6546d5830c023b3566",
+      "size": 218119
+    },
+    {
+      "path": "patch/ev0528",
+      "sha256": "f2baba96f7c4b226d9c610f972ff01850d7fe21ff537d5a4c04bcc9eea5fc2fb",
+      "size": 251468
+    },
+    {
+      "path": "patch/ev0529",
+      "sha256": "1328b6e5e2140b9fb74f5b5b60913ec98e1544e08b8a1afdb587c170efc9892f",
+      "size": 166745
+    },
+    {
+      "path": "patch/ev0531",
+      "sha256": "79bba6ecf1bd9c4d7b38eeeffce359ca36504f30120ff6e17e05fb4ad55fa62d",
+      "size": 323235
+    },
+    {
+      "path": "patch/ev0532",
+      "sha256": "69a097ac373fe9535aee63bf405c34fed22ee7b8d8911a21cb473883eaf10710",
+      "size": 206421
+    },
+    {
+      "path": "patch/ev0533",
+      "sha256": "1309bc17d8d3185b6bef4f32dabb4ec3a422f44efccc1506f6e87a69904782c3",
+      "size": 210124
+    },
+    {
+      "path": "patch/ev0534",
+      "sha256": "d042ef93d981475139f68723c2e42a21bd0d974837d8542001363e64d8c1216e",
+      "size": 276170
+    },
+    {
+      "path": "patch/ev0535",
+      "sha256": "b679babbe28ff307f78f3ce3d651a9aae1a41af90d3cd1df7a521b402dd70fd9",
+      "size": 349162
+    },
+    {
+      "path": "patch/ev0536",
+      "sha256": "688fa73e46fdbad9a348dc5452cc051560edf261eeba8d55afad52d823b557b7",
+      "size": 280900
+    },
+    {
+      "path": "patch/ev0537",
+      "sha256": "c75a537868546366e8526e98627c241cbe2b45acef9be48e3ffc105c13e7ef41",
+      "size": 210352
+    },
+    {
+      "path": "patch/ev0600",
+      "sha256": "03fcdb4635e1f6015239d8d93e104ba61d0dd06b7e38acc13561b61f7d7169b5",
+      "size": 212997
+    },
+    {
+      "path": "patch/ev0601",
+      "sha256": "4ed5dfddb182d9f9033b56423147625fa51aab9af8f2bdcb7fd5d6f0237070fe",
+      "size": 241409
+    },
+    {
+      "path": "patch/ev0602",
+      "sha256": "578809a1fe603f3c6759515a948ba7acd1746724566b84a69bfaca21cc0ccd9e",
+      "size": 209931
+    },
+    {
+      "path": "patch/ev0603",
+      "sha256": "00fc79c854a8627cd18cfa23ba03e1d9e669cfc3d64c34af7e9f66e3985bfd8a",
+      "size": 258413
+    },
+    {
+      "path": "patch/ev0604",
+      "sha256": "c966dec8d420302621e241bdd4f3f526c6ea7dcb97468bfb19bf912663c41a49",
+      "size": 288447
+    },
+    {
+      "path": "patch/ev0605",
+      "sha256": "f7984219599e539c80f484f323cad5823096cc070d218948f0bebda4b8221912",
+      "size": 202567
+    },
+    {
+      "path": "patch/ev0606",
+      "sha256": "65835bb75c7564b4c0c74159aefbcf16c0462533ca1f641d9dad509df98f2514",
+      "size": 277460
+    },
+    {
+      "path": "patch/ev0607",
+      "sha256": "a49c962c376e69e7638b0d65766e7d7fa0a4192d71c17fda75326b64be1ba49d",
+      "size": 311641
+    },
+    {
+      "path": "patch/ev0608",
+      "sha256": "8e49def6e2182bfe96dfb37bf325fe6c95e4fbef952a16914960558e86b5d8f6",
+      "size": 199489
+    },
+    {
+      "path": "patch/ev0609",
+      "sha256": "0f258c7823f1e2f8fd0dadea99644951d91e386c7f31091c591b5e925ec15139",
+      "size": 240247
+    },
+    {
+      "path": "patch/ev0610",
+      "sha256": "7200f5c7cb763b1e3863fd2a6b163dabe48b6d9501ae06dc6038a32a1c822655",
+      "size": 342176
+    },
+    {
+      "path": "patch/ev0611",
+      "sha256": "8aaba0790a57769c5ad257a58d9077012d97497db05b9a3c20203a4e6f4e6e46",
+      "size": 317975
+    },
+    {
+      "path": "patch/ev0612",
+      "sha256": "546b5524a67f3e6e4932fac8d309c1d5b23e34d72d844a4d1fe1f43f0aac6234",
+      "size": 197185
+    },
+    {
+      "path": "patch/ev0613",
+      "sha256": "05719837bb18926f774827f255aa0927ba3286976e43658481ab79d12cffee2b",
+      "size": 281091
+    },
+    {
+      "path": "patch/ev0614",
+      "sha256": "afe187c817baafb00714dfd8a00bc2c933dea76b54c67607c68cea0bc05f8a21",
+      "size": 255283
+    },
+    {
+      "path": "patch/ev0615",
+      "sha256": "5d6e5f2669f384d0024963468e92d39c7da710d50845b70708aedfb9e8a13885",
+      "size": 308849
+    },
+    {
+      "path": "patch/ev0616",
+      "sha256": "d50e50762e398388662f081b9099e5702c458dc240d48fdb4df6b49cb392804f",
+      "size": 352291
+    },
+    {
+      "path": "patch/ev0617",
+      "sha256": "b70142226fd656ded9666e7b9e949f90d4f0a056a707caa3872cd2aa30d9f42b",
+      "size": 296406
+    },
+    {
+      "path": "patch/ev0618",
+      "sha256": "5d5909233729c2d8c05489b1c8a902855f3d11be4197890981f2e8ded5016ddc",
+      "size": 269843
+    },
+    {
+      "path": "patch/ev0619",
+      "sha256": "3856f07b28de2cda9c4577b4a83d293e7e4cdbb26105c7df70ff125eb9ff7c39",
+      "size": 241251
+    },
+    {
+      "path": "patch/ev0620",
+      "sha256": "de8f38227c8b99d5e3a914368ddb3f840e2ba06a7238986b2bffeebefb7bae5e",
+      "size": 198067
+    },
+    {
+      "path": "patch/ev0621",
+      "sha256": "e9ea749280aed204d5213e267f47a9d42e3d6a4acf12cde7cb02c42d695ba28f",
+      "size": 299671
+    },
+    {
+      "path": "patch/ev0622",
+      "sha256": "425fb91cd6d5a65eaee1a103aec7cdea178d63a8cfe430472d7768f1346382fc",
+      "size": 286319
+    },
+    {
+      "path": "patch/eva0205a",
+      "sha256": "4c23e0e3c44f866a806ab27ceb20e635bf4c8e0da5713736236ae7fd0e719e22",
+      "size": 281605
+    },
+    {
+      "path": "patch/eva0205b",
+      "sha256": "9cd1ded0977627e75f6269364d51454ac958d68de62c51212d120e89e8cef62c",
+      "size": 295140
+    },
+    {
+      "path": "patch/eva0817a",
+      "sha256": "f24b3c42e6cffb73bb8a4741cb95ba389e53b4e2756e6aa76db4087b309c4c97",
+      "size": 76018
+    },
+    {
+      "path": "patch/eva0820a",
+      "sha256": "4199ceac3e2c7554329fe0c91db5bdca5fe7caffed6723fb6125ea4d1679c179",
+      "size": 91248
+    },
+    {
+      "path": "patch/eva0822a",
+      "sha256": "044dd5eba6a78020016143f905895891b80ad3a6319138070dfd0d108f88ae91",
+      "size": 35447
+    },
+    {
       "path": "patch/hamaji01a",
       "sha256": "d62fac561408211ccdb794c70630e8072b11939b6c90a188f84cc211cfca348c",
       "size": 5140
     },
     {
       "path": "patch/hamaji01b",
-      "sha256": "d32e189048beadee56d9e89690dd06c251541d3c13497bd4043b245738ba5072",
-      "size": 45969
+      "sha256": "9161696b88a724ecb0502487e261e4f7d9e9c584b2a990b40db4d3a3ae61e076",
+      "size": 45970
     },
     {
       "path": "patch/hamaji02",
@@ -40,18 +700,18 @@
     },
     {
       "path": "patch/hamaji05",
-      "sha256": "a3b5d05d59151c3912c603a5a368ee9d8504e5d01476474b8e3ba17b74052cce",
-      "size": 35373
+      "sha256": "0166c648784b85a64c6bf0264939569be6e631af5f1515fa2692e1639c12de95",
+      "size": 35357
     },
     {
       "path": "patch/hamaji06",
-      "sha256": "a2a5b67a2a4992b44ef33035c4fc8094431516e6ed3c9162f4d00fe2bbf7c04f",
-      "size": 29744
+      "sha256": "2c8bb3e5ba260d7131580042cc56bcdbd6f7ca6dbf3b4c70b06276da63c2a6d4",
+      "size": 29742
     },
     {
       "path": "patch/hamaji07",
-      "sha256": "e9bed19e13fb584adf74782c1db6a99b3e1c585f5d40157e312c7b3a9f7076ae",
-      "size": 35671
+      "sha256": "3489720526fcb78ba135b5eb14e4de8d4099aa8022365ab0797870bb2c89b8c8",
+      "size": 35654
     },
     {
       "path": "patch/hamaji08",
@@ -70,8 +730,8 @@
     },
     {
       "path": "patch/hamaji10b",
-      "sha256": "eb799a6c5d07b97ce27916d5c8a77c0ee91e61d7a9b6a2b6d874cf26d6edc959",
-      "size": 28008
+      "sha256": "f3d15e448a50260e0d686c98fd6b607dc42ef8fb9e2084e4713bc36805b1249e",
+      "size": 28033
     },
     {
       "path": "patch/hamaji11",
@@ -80,13 +740,13 @@
     },
     {
       "path": "patch/hamaji12",
-      "sha256": "3cd6294e294199cc668447c8bee4b8598773bd7a7ffdd52a887107e1999d900a",
-      "size": 18005
+      "sha256": "94d55fc75ad9b55411056dd98b435412673e2568e77f7c054b8a58d387c04ba5",
+      "size": 18002
     },
     {
       "path": "patch/hamaji13",
-      "sha256": "d04834bdf7f7307fd4474232362355ab06e04e130cbf34b076545f250aee9cfb",
-      "size": 61119
+      "sha256": "fcadd475e9fb794448222a3b48dc1098a697e4c516e98401410bc9be75d4ac09",
+      "size": 61117
     },
     {
       "path": "patch/hamaji14",
@@ -100,8 +760,8 @@
     },
     {
       "path": "patch/hayamiafter02a",
-      "sha256": "c53b5132e7929daa4d47e738c91c4c6f75be0e3f2fbb074248d9e1ccb92defa6",
-      "size": 39583
+      "sha256": "934146b73b81b2138fe0145e652a982e9b5dc97cba972ae92200d9f9d3ec5ac9",
+      "size": 39582
     },
     {
       "path": "patch/hayamiafter02b",
@@ -110,18 +770,18 @@
     },
     {
       "path": "patch/hayamiafter03a",
-      "sha256": "e9dda6500df98e9aa850cf86fd218536bde56e761f8cb8ba8e9a07f26c1687b6",
+      "sha256": "a94f8c3feb2fd162ba7059468ec4b800c690f72c7aa70645aa0a2ac316c65c2d",
       "size": 48224
     },
     {
       "path": "patch/hayamiafter04a",
-      "sha256": "fb375046e8e77564a7f90f924fba84a0ffa0e902e338f3c32b0d96236cc794fa",
-      "size": 14154
+      "sha256": "fb6041b46a2d5f823c7189b4f2c7bdbccae5b86c4f4e710545e35573bf3bd468",
+      "size": 14157
     },
     {
       "path": "patch/hayamiafter05a",
-      "sha256": "2d7435cb1a4e57a07a3e2670ac5ee07b8a6f5401de70722a8680516b7330a2bf",
-      "size": 20682
+      "sha256": "53db88b558dcdfaa777b67bccd6cfebb8c85e0b75a8bd0ea645aaab885a5483e",
+      "size": 20686
     },
     {
       "path": "patch/hayamiafter06a",
@@ -130,8 +790,8 @@
     },
     {
       "path": "patch/hayamiafter07a",
-      "sha256": "13b4f3d7f68fe560c30363642d6ea016c1f986266e0297c63f2a51ac055737bf",
-      "size": 34191
+      "sha256": "1178aac51907534d650b0d44a22d92aa5bda6c151ace4c95ffd7b5978954fa47",
+      "size": 34200
     },
     {
       "path": "patch/hayamiafter07b",
@@ -140,28 +800,28 @@
     },
     {
       "path": "patch/hayamiafter07c",
-      "sha256": "6e4bf65cbfe8117eed11e392e147d69ced357fcfaf9d7ef7b2a7f98ab420cb7b",
+      "sha256": "ec6954507bfa00421326633ce10ef8e7ebbbc429eb7e43e531dbc1e490695366",
       "size": 40470
     },
     {
       "path": "patch/hayamiafter08a",
-      "sha256": "bbb60e34e6761dff9f26eb29423bcea9a72219afeb7a9270c63ea156a34fec11",
-      "size": 36751
+      "sha256": "12b9235f398b8d581529ac436719f92c804073b2f9f55343ce23a83720e4a69c",
+      "size": 36750
     },
     {
       "path": "patch/hayamiafter09a",
-      "sha256": "ef1602250300ae0066cdc60c576ed2b137e71e529bb2657224a17f254c931c6e",
+      "sha256": "95c7725ebe3deb5d3325fdd809160b72b205836fb02e7f87e6cf60f25280c3ef",
       "size": 8742
     },
     {
       "path": "patch/hayamiother01a",
-      "sha256": "4a5d1ae23c96a093df27697ce4e70311ac5e011a368d0dfe5d3317dab7a59a77",
-      "size": 29022
+      "sha256": "5c22e62338d48a6127d02460f2cf471c8394b55395c3a710c71fe9d178d2de8b",
+      "size": 29029
     },
     {
       "path": "patch/hayamiother01b",
-      "sha256": "291ab0fc41513ef1527574f153f32af207edd8af308641e25c2c9cc8da5163dd",
-      "size": 53681
+      "sha256": "839008883c15b27082ea693cb94725ee2e0656d95618ef6a7a9def8ddf8b3e6a",
+      "size": 53680
     },
     {
       "path": "patch/hayamiother02a",
@@ -175,8 +835,8 @@
     },
     {
       "path": "patch/hayamiother03a",
-      "sha256": "c8d993ba19b3fa92ccf800a3a0071a4e29a260da5cf9978140d0fa5b42fbead0",
-      "size": 11000
+      "sha256": "5c1d621b7acd4743304a1ed5216a427a1203e2277b6fccae7b2755748b3fe0b6",
+      "size": 11002
     },
     {
       "path": "patch/hayami_a01a",
@@ -185,33 +845,33 @@
     },
     {
       "path": "patch/hayami_a01b",
-      "sha256": "9bf1d10028ba64ef87afed039b2a846ebf0b797d22d1d8439d1d9d58ccb531e2",
-      "size": 53396
+      "sha256": "f30a18386ad3eb67dcf1241e9add7d881b15bfa5b0c625934fa92a31417df175",
+      "size": 53405
     },
     {
       "path": "patch/hayami_a02",
-      "sha256": "3f48ce4c17fff977a3e93b56832758938fc375d34414f9c37aeab65223c3a555",
-      "size": 45602
+      "sha256": "b87add269d22e39d5dcc45b558b4a6aa5098b1a8a380b96f50a762060857b603",
+      "size": 45605
     },
     {
       "path": "patch/hayami_a03",
-      "sha256": "6e1305d9bd5530e8ec97b2a108c285e3f9c1813d3efaaf0b6b479b145e778d5d",
-      "size": 38130
+      "sha256": "ce89d36514009546960eaf1674b1049ad71368cfadf69783375713e1fde59766",
+      "size": 38132
     },
     {
       "path": "patch/hayami_a04",
-      "sha256": "910fb60f99359f101ad9169126016409d6ecb497af65fd9c29052ee80e567bbb",
-      "size": 43012
+      "sha256": "2d6ff0ad08c11b9d62715a9e1a746b04c74382d79628fed5f7275948d21621e7",
+      "size": 43033
     },
     {
       "path": "patch/hayami_a04b",
-      "sha256": "eebeb8d8f8cd5a99ba40d64b51aad774d611fc3e0c66b2278c52f9b6b243b26a",
-      "size": 45745
+      "sha256": "07587a5d6244c79bcf237de7a1f9f4aa1997c61ca4ff1937eef42ad15c950375",
+      "size": 45783
     },
     {
       "path": "patch/hayami_a05a",
-      "sha256": "6c8b56011aaa0ca34fd2dbbbe430adc215baadd69d3a0b41c17ebb3238a50498",
-      "size": 36307
+      "sha256": "29faf173f8caee9d51cf0e5a13600d5e99f386cb59082cc378316132aa22979e",
+      "size": 36309
     },
     {
       "path": "patch/hayami_a05b",
@@ -220,7 +880,7 @@
     },
     {
       "path": "patch/hayami_a05c",
-      "sha256": "ef1cce87699d7aebd00a1faeeabf4f8908ce9e8599eb925cd05e4b5926e90e05",
+      "sha256": "fe91442977277f5a0c3889e5ee2557fd6f105c4d7f0a84e6aa475b060d730585",
       "size": 47425
     },
     {
@@ -230,23 +890,23 @@
     },
     {
       "path": "patch/hayami_aa01",
-      "sha256": "c89023907ff4519771b33767680465d1aaef9c42eb2755d35f205e56a74b9055",
-      "size": 48493
+      "sha256": "c1b5469f50cbd6366d3d8b4b1fa07b7f3ad4f7a9d87625b6b8234a2cdb21c2f4",
+      "size": 48492
     },
     {
       "path": "patch/hayami_aa02",
-      "sha256": "a3f3bdbbe0f2eb0816ffe85824944e4096ce06002b55e76b440752125cc9203c",
-      "size": 25925
+      "sha256": "6c5deb9d3fe0450b8e634384cd265fb2cf1dec96457863592737a4ff9759a3c1",
+      "size": 25927
     },
     {
       "path": "patch/hayami_aa02b",
-      "sha256": "3a8d01a4e98ea5d394ce0ecd0f085e92eb111f875b86a9e94ed9f7b168bd0a46",
-      "size": 62744
+      "sha256": "c6e88d0c1e28b3757df593106ca4d594bf76fd240b057f7140c12690488b7e45",
+      "size": 62733
     },
     {
       "path": "patch/hayami_aa03",
-      "sha256": "12482cba6e1ac40e39029d1f7c42cd6b1239eddb3fc1d249f49b548251ebb329",
-      "size": 40450
+      "sha256": "1437827b862ce2e7647bc4211028f74fc6aa7c07ec95457de6e4ac80f988573a",
+      "size": 40447
     },
     {
       "path": "patch/hayami_aa04",
@@ -260,8 +920,8 @@
     },
     {
       "path": "patch/hayami_aa06",
-      "sha256": "1f118569deb138a87d393ee3f2fc2e02e8640c1c1fcf2dc5f6e93c58ca04ab90",
-      "size": 36602
+      "sha256": "eb1bf1af78db579ea7a32a399e65c86b10500452526db52dec2e92e694fdce58",
+      "size": 36600
     },
     {
       "path": "patch/hayami_aa07",
@@ -270,18 +930,18 @@
     },
     {
       "path": "patch/hayami_aa08",
-      "sha256": "40eb619008e2215583169a818dd5205f894e5e0c8e06afba9cf324415811c5d1",
-      "size": 27327
+      "sha256": "91588d4053ec3d6622c7f5011e9c38e39947f05d0876dcf3441a779100ed48fb",
+      "size": 27325
     },
     {
       "path": "patch/hayami_aa09",
-      "sha256": "35810f67a1917df57d3749b4d0af857ae6939e0ec1112f00c8226beb89360e4a",
+      "sha256": "a13c9b2110f21bec2ab28d8a9b486aee47fa7766ef4811624643a3ca5725e04b",
       "size": 25030
     },
     {
       "path": "patch/hayami_aa10",
-      "sha256": "d383928eac5eeb5c510680281ffb415c0038631c782e9f78ab78850cae623517",
-      "size": 11135
+      "sha256": "58f7763b55bcda9ed33374c571df3135283504c036a9cf0a353ae976e092cd5c",
+      "size": 11131
     },
     {
       "path": "patch/hayami_aa11",
@@ -290,38 +950,43 @@
     },
     {
       "path": "patch/hayami_aa12",
-      "sha256": "e3b6fbdb83dabdbf8ed749a4ec043be7f3809a6b6101a0ec383abe5efecca8d2",
-      "size": 10661
+      "sha256": "52303bfe90e30ed23a144d985b71e012df1d2d1833748e52718c292a0d627da7",
+      "size": 10687
     },
     {
       "path": "patch/hayami_aa13",
-      "sha256": "e32e3c275c1926912ee2bba657b69afd6eeaa4b424af8535ad45513401de5ac3",
-      "size": 35406
+      "sha256": "e21043ec0833534cb0bb1d4a693f4e47478e1cca254f44e29d6494d16b9ebb75",
+      "size": 35405
     },
     {
       "path": "patch/hayami_aa14",
-      "sha256": "cf8093b70ac4999ef66141a6127598a22ca2000690afc62e662f215eb0ebe160",
-      "size": 29166
+      "sha256": "128ab6760d9f492f84938568f8473bb6031f1cff42a041dc72f290c454e331d3",
+      "size": 29169
+    },
+    {
+      "path": "patch/hayami_af",
+      "sha256": "2d9004dbf3df3bfb3f1549d8c2b72e4f32a6109b8d996a46586997ea48fb03cb",
+      "size": 43533
     },
     {
       "path": "patch/hinataafter01b",
-      "sha256": "48378f8ac1e70e6b49d365ed21d55f6a3083ee82ddda8cb9a6475d486ef83405",
-      "size": 13611
+      "sha256": "aab83a6d616088e5a2386600a849500ab002237a73dc26c98ee5599244b85235",
+      "size": 13617
     },
     {
       "path": "patch/hinataafter02a",
-      "sha256": "c9c06a7d9e49adf1e0534fa130ec8ebdbdec5da05dd4d17b0682b5d1cd22bd39",
-      "size": 21765
+      "sha256": "2a48764d92144bc79dc9713be6db270f70115a3bf02527cbebb8350afd2f5f7c",
+      "size": 21778
     },
     {
       "path": "patch/hinataafter03a",
-      "sha256": "884b9abea04ca23fd2fe941823edb6a302395533b6faa40619c9e73d747a7a0a",
-      "size": 32968
+      "sha256": "1949c09507d538e244bda9f154e65a52b908a1f1617bcf49cf63a81df2b10260",
+      "size": 32978
     },
     {
       "path": "patch/hinataafter04a",
-      "sha256": "040b454e3563cb7c9a3c89ee58e5c26d08a34e591a9fa8e6c8898990bf8a3f90",
-      "size": 23953
+      "sha256": "261aea46a2f1e20e66b68cb83bcf036a8aa1e2ab0f2db4ee4ae563d5e0878d34",
+      "size": 23958
     },
     {
       "path": "patch/hinataafter05a",
@@ -330,8 +995,8 @@
     },
     {
       "path": "patch/hinataafter05a1",
-      "sha256": "58f7989f75b707c3d0b29e0631ed82857871db1c199f4ceaa3bacd4f4d445d33",
-      "size": 9267
+      "sha256": "977a82dc8a03ef6f8cf3f58b45cd55c7ab65960e6cf5a3bda62149709f0db235",
+      "size": 9270
     },
     {
       "path": "patch/hinataafter05a2",
@@ -340,23 +1005,23 @@
     },
     {
       "path": "patch/hinataafter05b",
-      "sha256": "0d89984008c90657c8453ff71a5679de8b96da969b232d67d45a869a2bf80559",
-      "size": 32708
+      "sha256": "a57eed33aeb426403aeb4075ce0d663e5d2d5083b7c70fdeca01ab0acf0d0f25",
+      "size": 32709
     },
     {
       "path": "patch/hinataother01a",
-      "sha256": "97d0cb44c4e5f9eee00219e1b24028c4227f0a15080c0655bd368c851ca5986b",
-      "size": 38705
+      "sha256": "21d2e1b4c598e328bf10e55cf85a29e1e3a77940d154b4ad14f31f6a7cd3cf91",
+      "size": 38691
     },
     {
       "path": "patch/hinataother01b",
-      "sha256": "708ff0cfeb9677dfb8379344d02af1217cf8f64c6e27a7e2f8f1da81b74a0516",
-      "size": 25692
+      "sha256": "d94135b83bf67cb4b1a7adc89446d43d8570f3ee5865f14c050b40b3e5149451",
+      "size": 25684
     },
     {
       "path": "patch/hinataother02a",
-      "sha256": "cde757df3642ac2fc699670500f1d72d62257dd32c23f1d2e4f0e831fb7cf6c0",
-      "size": 39595
+      "sha256": "8fa563ae4c4c36a840dd0c2162b99ca4da6fef2e87a5142f1c850171a270d303",
+      "size": 39589
     },
     {
       "path": "patch/hinataother02b",
@@ -365,63 +1030,73 @@
     },
     {
       "path": "patch/hinataother02c",
-      "sha256": "3267670e9ced2050b9d3c1666d6cd63203723c2707cd7890026d9fc59c2e33f0",
-      "size": 41834
+      "sha256": "aa07b1f141831f6987043ce0ea4165c36cb857d036c59d1c1d8c282e5433ba55",
+      "size": 41830
     },
     {
       "path": "patch/hinataother03a",
-      "sha256": "c5d2a8ef56d02f1242326e9b92b4bb0b49e626458b572dfea15e1e485e5ce00d",
-      "size": 27644
+      "sha256": "a9bb7f1aabbe8eda8b62c6ad717155369c2fabb038b138a1ed72bae26a012b22",
+      "size": 27642
+    },
+    {
+      "path": "patch/hinata_an",
+      "sha256": "bcc50c80db79b824a1000fc6735b5a2a9e27ab3cabfbca7fb1e000a0bb3a2ad7",
+      "size": 48554
     },
     {
       "path": "patch/hotaru01",
-      "sha256": "2b4e892a93523670c9c52e376638d03391ebbe9bbc7a2126cf8caacca92a3a5a",
-      "size": 42218
+      "sha256": "e9c097cf7dbeeff5eb5c22a04e3c9db4d98f6d8a57e6ae2c49fa3ebd90a9f120",
+      "size": 42232
     },
     {
       "path": "patch/hotaru02",
-      "sha256": "11be33048f39b2cca60a76f0c294689ba3e4e1c2fa6d1a4c75f1bd083e03c246",
-      "size": 58364
+      "sha256": "90e98ddc1b3bcb1e6e08100ff5986d6e11322208bae56f94006be875b9a3658c",
+      "size": 58326
     },
     {
       "path": "patch/hotaru02b",
-      "sha256": "9c4e972584b9b94390d59a76c7753a6351a8b9b221acd7440ce671a9a5d095dd",
-      "size": 21638
+      "sha256": "bb46f196e17223d255ad20f11ffd4b928407e97ef12107bf9368d33b04a33a9e",
+      "size": 21636
     },
     {
       "path": "patch/hotaru03",
-      "sha256": "3240d7f66df6f06edb5843d1341644a194cd15815aa7da98ad997debe7d8665c",
-      "size": 31573
+      "sha256": "80c84cb7c28756dba4ed03a5e83941328cb1a080afc15ad471160f943e302e09",
+      "size": 31576
     },
     {
       "path": "patch/hotaru04",
-      "sha256": "ee3a33f96b008c5ff783bffcd38cc55dbb13543ed2654ef6c8cb5cb30df862bc",
-      "size": 57997
+      "sha256": "21a9c69c47510bd45d0d89d9c2ed01cec20f1195eef5e1055b4c2fe669454392",
+      "size": 58000
     },
     {
       "path": "patch/hotaru05",
-      "sha256": "c7f5f9c2a8a3f19dd9364096807d423e8e10aa6e6b4cb66bc2c4b1158f31cb0a",
-      "size": 45612
+      "sha256": "826005e203bc4f36198dd732b64970c54fba1734fae79f010cba0e5d797413e9",
+      "size": 45624
     },
     {
       "path": "patch/hotaru05b",
-      "sha256": "7b057d0902046f282cdcde1a846870367649c0001742ee60ef3baa82fbcf4ae9",
-      "size": 43012
+      "sha256": "a1991576876debf4a431697957e39ce78fc0420f1d67aee3ece26a2c3528bd54",
+      "size": 43045
+    },
+    {
+      "path": "patch/hotaru_af",
+      "sha256": "1bf116d920257a020d9a1936436011abdaa832ba8d11847a6edb07b88a38df83",
+      "size": 33740
     },
     {
       "path": "patch/kyoutu2",
-      "sha256": "5f900277e32ea4a41fa54814900bf8bd20326d24cf9372e60571da2feba96300",
-      "size": 53037
+      "sha256": "020a14fe8bf5a5a85a117cb760e11007d52553ca8f40344351d3016098fad3f1",
+      "size": 53021
     },
     {
       "path": "patch/kyoutu3_hinata",
-      "sha256": "d2cd85cafdcbcb8f2e0d72c97019136a2d5bb066da9f2b8af667ac0f60944e2a",
-      "size": 29729
+      "sha256": "64d1382c88c3b09e6f5625f77391ddd82fdfe423f2ec17a93d5c37017e791cf8",
+      "size": 29725
     },
     {
       "path": "patch/kyoutu3_otoha",
-      "sha256": "0f4006c8d41386c2864eac8fb067048670e3e19b93ba25079df9be5ede176ae5",
-      "size": 29744
+      "sha256": "9fda40bf320583337632ac5f24ca1f2d719721eec95e546429285233da5aa3a8",
+      "size": 29740
     },
     {
       "path": "patch/logo",
@@ -435,8 +1110,8 @@
     },
     {
       "path": "patch/maki_02",
-      "sha256": "95524f4800d656669b6ea71c0cc2cf022346b1bdef6b1683471015fdff7b929c",
-      "size": 55781
+      "sha256": "c30f27d84aacf497a1699669d7a49801ba0ea7bc24bd19fb9c9828b568df632e",
+      "size": 55783
     },
     {
       "path": "patch/maki_03",
@@ -445,13 +1120,13 @@
     },
     {
       "path": "patch/maki_03b",
-      "sha256": "a6a3d883d874f49c05e3bb619c69afed13f27e1f8aa758b314393f1e3ded2c60",
-      "size": 48562
+      "sha256": "a5b1b2fbf3cb0b37b257e4246af09929250238f6a2fb80c2c15f7ed0e2187813",
+      "size": 48559
     },
     {
       "path": "patch/maki_04",
-      "sha256": "76ecb82b935332c0bb5fe0eb26bf58dd0b939b07f820d595e9e6ebc21c403fbd",
-      "size": 51041
+      "sha256": "1b44f7dbff3461de07509ec2a3e27b14f2696fdee511a882b74eea5c370b5dbe",
+      "size": 51045
     },
     {
       "path": "patch/maki_05",
@@ -480,23 +1155,23 @@
     },
     {
       "path": "patch/old_01a",
-      "sha256": "3d5418bddf6d3af289e89fe40689d4de9431c2a7b59b47b94e3f4e64f6d3cf05",
-      "size": 52955
+      "sha256": "cd1fd386bbff00d7d551e4beec0c78b826d3b3fc94abcb08eaa0d58d255bcac0",
+      "size": 52950
     },
     {
       "path": "patch/old_01b",
-      "sha256": "1c5d8ee28e93b5301f1776c277abe9a66d5272470cd1a06410761b5fb5646818",
-      "size": 48899
+      "sha256": "c77bb5c9cbf80dfd9b0c6e7aa0d9731dd450fe37a0f00ed0dc1531be18cf1e9f",
+      "size": 48873
     },
     {
       "path": "patch/old_01z",
-      "sha256": "4be196da4c9b498d40fde43c85d4033380c447519e77070275cfaaa81df32023",
-      "size": 8580
+      "sha256": "e2c8691f475462fd4cea470af54ada4c6843a5098e58287ca20fcdbea62b3eb9",
+      "size": 8587
     },
     {
       "path": "patch/old_02a",
-      "sha256": "bd638a46c036d3be22bb4a8168bc2f4b51dd8b76d2d73314b9c112426cf36923",
-      "size": 30315
+      "sha256": "f6637231722e0348aa40fd0571290650aaacc42bd8fc5aac72f9265af9a61576",
+      "size": 30318
     },
     {
       "path": "patch/old_02b",
@@ -505,8 +1180,8 @@
     },
     {
       "path": "patch/old_02z",
-      "sha256": "6a633d6b734b4dc7dcaa2ed8939163ba774debbdb485c8466e44c8e0d1f32de9",
-      "size": 4823
+      "sha256": "ec5127a5b0180eaa173dbf8a10256a7459266abf418286b2a4f1b7c86a559ca4",
+      "size": 4829
     },
     {
       "path": "patch/old_03a",
@@ -515,8 +1190,8 @@
     },
     {
       "path": "patch/old_03b",
-      "sha256": "8ffff6afbba5984e02b2a21a256aa84c770869e7dd68b9fd65672e04ed5ebed9",
-      "size": 36583
+      "sha256": "1e30fbff15c39ac26256a19836828059c87ac1a67c1564dee1766805dbd7d9c2",
+      "size": 36573
     },
     {
       "path": "patch/old_03z",
@@ -525,8 +1200,8 @@
     },
     {
       "path": "patch/old_04a",
-      "sha256": "4e0b8f46ff2a1575d22bb9698efed2d6e50533454f57f83fcb5a1540c2408b0d",
-      "size": 31778
+      "sha256": "2a189d406510009fc8aa59c342342d2ca0320e69801ba53de31b55428d53fbc9",
+      "size": 31754
     },
     {
       "path": "patch/old_04b",
@@ -535,43 +1210,43 @@
     },
     {
       "path": "patch/old_04c",
-      "sha256": "e43f0abede2e91409dbc6bde2937a9423881db39037773e61cfa8cc3cadf0976",
-      "size": 49344
+      "sha256": "6e833e9281a123c449eac296c6c20b26b8989e0648b0fa26554c2b9f880aeb26",
+      "size": 49346
     },
     {
       "path": "patch/old_04z",
-      "sha256": "aa3f2fff54957065a63f4e4029cee22279524ca3e8747a7edd90b75c4bf5786f",
-      "size": 3340
+      "sha256": "e5cd245a5172348149c4a1e0fcbaec37a2f8a1126c2d030c06d321527044325c",
+      "size": 3227
     },
     {
       "path": "patch/old_05a",
-      "sha256": "715e097e173885427bfab2c11ae90f4495f6950643fd7a15c05702afeb81f102",
+      "sha256": "838ad00e6cd07557d5f32dceb75686a5c4d12341531c8c00df7b8610a15ea597",
       "size": 39435
     },
     {
       "path": "patch/old_05b",
-      "sha256": "0ff940903c5bc3b0140f47d24b8801af3274e9cb8c15c7a9a0ad894f690b97a4",
+      "sha256": "d2eaa5c9906acbd01ba16709949b214417fac49bb88074ad6aaa74a925d94fd8",
       "size": 50979
     },
     {
       "path": "patch/old_06a",
-      "sha256": "d21ac9fbb11e0c48b5023d6613e1c30ff4918ae3e3902a48e8df3fa63318d117",
-      "size": 38728
+      "sha256": "8175026064bbbd98c156442a1652b426f1e57974dbff6cde5248d59232ea6f56",
+      "size": 38727
     },
     {
       "path": "patch/old_06b",
-      "sha256": "3d54ceaa77770a4c2b8df3a3f9e8215a5cf17773b6ba2614d6b80af85e9fb8ed",
-      "size": 29874
+      "sha256": "afca5d74f9eaaf2b1caab3c0727192efa0ae7c010fd7acbc30c49e4870263b8d",
+      "size": 29882
     },
     {
       "path": "patch/old_hayami_08a",
-      "sha256": "4b9f897e65d003c53563e9bc0f0b7a1bd6d25fceb74c196d0c1e7791596f04e6",
-      "size": 35174
+      "sha256": "f2f8b6175a9d1ecf33817e0d10bfacd4b2ec9b62ae8972bcc029ff3874d541ca",
+      "size": 35188
     },
     {
       "path": "patch/old_hayami_08b",
-      "sha256": "b3cc5404e849d7541cad71283a624ff69d2f5243a5dbfd81a13ad7a815d46bf0",
-      "size": 18557
+      "sha256": "c48e437187ab148bf70562a42fdac19739fd2ba90b0e1009b611693fd009aad7",
+      "size": 18570
     },
     {
       "path": "patch/old_hayami_08c",
@@ -585,73 +1260,73 @@
     },
     {
       "path": "patch/old_hinata_08b",
-      "sha256": "7e834132a59246fbef8f38a84719266428b7fa05278d283c6b6d4dc286c99412",
-      "size": 30520
+      "sha256": "03d3379a38e09b8cf0dfb7227cc2f01e9ffe56d7a559f747d0c91d268f593d2c",
+      "size": 30538
     },
     {
       "path": "patch/old_hinata_08c",
-      "sha256": "e7de7d2f88418bb48faf2b280b1d1716c1881dd5f4bea84e558c831a3ccc2060",
-      "size": 40837
+      "sha256": "030e435bb475ccf011e2b58ff8a608499b5efc6dfa86633f73d71eec4d6f4ab2",
+      "size": 40807
     },
     {
       "path": "patch/old_otoha_08a",
-      "sha256": "8fe59a73b50ca565fdd9d398dd38d8be79afe9452da1438a5127d0e72f6c6326",
-      "size": 33037
+      "sha256": "00513db17b0a81b46b6f0fa1c5bd8b4e85baed9f15757d19055ef1f1ae6fcb5e",
+      "size": 33021
     },
     {
       "path": "patch/otohaother01a",
-      "sha256": "00f19a9061813aea040208c0a17a7e290e6f019d780bb53a9a44863047088e55",
-      "size": 22648
+      "sha256": "edb44c1a56a80b6c1d712b6bd3bf23b867171252cb31c46fe8281a919348f302",
+      "size": 22647
     },
     {
       "path": "patch/otohaother01b",
-      "sha256": "0ab53943a78ce24eb08cd58e37e0264119c803047af7a44009c7c65c151997b3",
-      "size": 41345
+      "sha256": "51876a6d48990ed2d8cc60d87eab6f780ba70f24a91f40acbb99204223ffe07e",
+      "size": 41357
     },
     {
       "path": "patch/otohaother02a",
-      "sha256": "e59cd952df39cb6fb2465574bd2bd0c439102b405ebf939fcb19ed435688cfc0",
-      "size": 30190
+      "sha256": "91b74244f33783bd3833c96f6c0e575f3e876204a774507739e19d7b8d57c829",
+      "size": 30189
     },
     {
       "path": "patch/otohaother03a",
-      "sha256": "d167c6e84fc53cd156e205a532a3fd461418ecb02f9ad1e2a27a03493784d396",
-      "size": 15201
+      "sha256": "77fb937702bb659a4d93417edf637ec1b4805d0262c6d4168099aebd84172cae",
+      "size": 15200
     },
     {
       "path": "patch/otoha_after_02a",
-      "sha256": "f98b1de1924395fc37f67cac7e0bb44b10847ab9e43eb4faa0d346364f54e2e9",
-      "size": 45773
+      "sha256": "987f9ce3e5fa804615c490f8aa3b12149a709cb7535aa362cf6709c684647303",
+      "size": 45785
     },
     {
       "path": "patch/otoha_after_03a",
-      "sha256": "2ab4db111dbc84c34de5654216a4de2bb73529aec522ccd3aac37b02294cf5eb",
+      "sha256": "72347e2516ce4cff7076e14806be10d11016492cceef61067da963d9be245d50",
       "size": 32957
     },
     {
       "path": "patch/otoha_after_04a",
-      "sha256": "4ab08a4a2236a0033e3508e9c5f9b50b1fa5b94b4e9e28291aa9d992ba752cdb",
-      "size": 50624
+      "sha256": "3570eae1567e9211e02c98c10004a10862d2f938aad73e044b764df316832c1c",
+      "size": 50626
     },
     {
       "path": "patch/otoha_after_05a",
-      "sha256": "66ef1213ba7b7720ecff187af940b5c62bdcb80b04fb07a3cc23fb9653b1d1d6",
-      "size": 24516
+      "sha256": "a3a9dede8b657ddb581e40c0da11626ac679d2e0304beea2f34b4df48ffe9cb1",
+      "size": 24524
     },
     {
       "path": "patch/otoha_after_05b",
-      "sha256": "687f3dd4501295a90128264bd0fb897cdd3af462d28392ee900532b23e18ec7e",
-      "size": 41590
+      "sha256": "5741c1d6c65b2c7c37541dc2f6b093cd3313454cb77d59e134b384334a7227a3",
+      "size": 41595
     },
     {
       "path": "patch/re_00_hayami",
-      "sha256": "0a7dddc62a81cef47494ae7b18b9188a03970426ff5aa839f52e168b10a2410f",
-      "size": 20722
+      "sha256": "6a8ef7b611a0573d848a8247981e33b58dd5868323ad888571221eda09d74c72",
+      "size": 20734
     },
     {
       "path": "patch/re_00_hinata",
-      "sha256": "ee54c7988ef586e454a02d3d6a4797a43a01654906e63586c5e935c32cce5aa9",
-      "size": 20727
+      "sha256": "f2003d642922c1d8ccc3631d4168bb6ec4882dab9364ee8d2a56f3b9caff5197",
+      "size": 20739
     },
     {
       "path": "patch/re_hayami_01a",
@@ -660,33 +1335,33 @@
     },
     {
       "path": "patch/re_hayami_02a",
-      "sha256": "7d4e6c01c76bcd37a2acc5f6f230708493e6920e4f2cfbf1bc8b4b052c776237",
-      "size": 56087
+      "sha256": "407f69b7cba9e425402c020d79ef923393291ae7f8fca5029e0b5588ca7d25be",
+      "size": 56111
     },
     {
       "path": "patch/re_hayami_02b",
-      "sha256": "77ce1bbcd982fe8bc28eb872d1679133812c12b0db01a316edc38ab59bb5edf8",
-      "size": 34734
+      "sha256": "f0ae63110a96ecd82ff83cdf8e11c10b771ae4b942af8377532c2438b4190bee",
+      "size": 34730
     },
     {
       "path": "patch/re_hayami_03a",
-      "sha256": "2d3943059d1f895f686fb8a43ef6fbbf7fdbb72af950f47afab71d3a80b9ea6d",
-      "size": 46322
+      "sha256": "260bd58be83e98798e6418d0a9f58ca0742c549b763b08c8a8a819fdd0df515b",
+      "size": 46377
     },
     {
       "path": "patch/re_hinata_01a",
-      "sha256": "ea4e1d0514373e21cd022d37efa6934009e0137c578f5c261c569bf83f176e5c",
-      "size": 47197
+      "sha256": "5c3aae97756822186dc8e30d59975c008f0140e05357d7f1b3ceaabe93012b43",
+      "size": 47193
     },
     {
       "path": "patch/re_hinata_01b",
-      "sha256": "0c981f244abb3acfa4a875bb29ed21280aa91f8a4e3aea450f3446d3943f0d05",
-      "size": 39265
+      "sha256": "589eefae35f63102f0558481840cbd05c98966002131c0403db0123064254370",
+      "size": 39371
     },
     {
       "path": "patch/re_hinata_02a",
-      "sha256": "6724ddb20eb561f9be41dc422b93776c3cdc008ac117b8148b6f2fbb59759ae8",
-      "size": 56401
+      "sha256": "937229747be88d1400891f7607140e562a1ae33937f608bc1ef9c7b6f03b125b",
+      "size": 56463
     },
     {
       "path": "patch/re_hinata_03a",
@@ -695,8 +1370,8 @@
     },
     {
       "path": "patch/re_otoha_01a",
-      "sha256": "394a540efa74e37f550054fa24f89f4b6e62434ff300a2fe792140963da1ad52",
-      "size": 49282
+      "sha256": "b29b53a781e64b0db2a5a25de84835d8ffbad7c5543484b9512fc16e2a607ffc",
+      "size": 49290
     },
     {
       "path": "patch/re_otoha_01b",
@@ -705,8 +1380,8 @@
     },
     {
       "path": "patch/re_otoha_01c",
-      "sha256": "ad0b57b973b7d9db61672187926fab7822c125d334385ff36bfcd3eab22773d4",
-      "size": 27382
+      "sha256": "4581504f9e215c0381f9e47294118ca8cf3bfb123dc7ed02a46696baca113d12",
+      "size": 27381
     },
     {
       "path": "patch/re_otoha_02a",
@@ -722,6 +1397,26 @@
       "path": "patch/SGAtogeh000000",
       "sha256": "202680e621333f1cd625c7bd035486701c1732c96cca8b2b16961add36d895a3",
       "size": 200177
+    },
+    {
+      "path": "patch/SGAtogeh990000",
+      "sha256": "c0d22d00c982a58dd92a491ed6e3485c01a475e47abeb78fb1d25f1c4ca2375d",
+      "size": 308689
+    },
+    {
+      "path": "patch/SGCGApp990000",
+      "sha256": "5f5c99312a30e128076314c2a96e7b46fcd810134ac7c6a5c573181526634d55",
+      "size": 919935
+    },
+    {
+      "path": "patch/SGCGApp990100",
+      "sha256": "0dc845c85b9bb5c367090232dd654c5e008abdd444938d5a70a7f5acabe7ab6f",
+      "size": 915577
+    },
+    {
+      "path": "patch/SGCGApp990200",
+      "sha256": "50ca79e15a31db7b13b84bff57cc83b72716a9d70eb50123cb41af8ea282697b",
+      "size": 889575
     },
     {
       "path": "patch/SGCnfgWnd000000",
@@ -819,6 +1514,26 @@
       "size": 29786
     },
     {
+      "path": "patch/SGMenu001000",
+      "sha256": "3ec8ca046b76e1d8ef58e0c1c68f0571292c3933ce09d412713b8462473c6870",
+      "size": 90628
+    },
+    {
+      "path": "patch/SGMusic990000",
+      "sha256": "72abb1922b0bec83c93a2a831e02d4693541ca1a325c0030e6358de915cd2e99",
+      "size": 892928
+    },
+    {
+      "path": "patch/SGScene990000",
+      "sha256": "2abae694c82325e4d7bb3394ebb39afdf127ca5d9792a17202d8f2580009f38f",
+      "size": 379470
+    },
+    {
+      "path": "patch/SGScene990100",
+      "sha256": "6d6f4cafdadc85199532f3b706e9a4e9ea724358605f2441eeb2fcff46464f1c",
+      "size": 373232
+    },
+    {
       "path": "patch/SGTitle000000",
       "sha256": "2d804d847b8d4e8e611adfc34fcd557738091e64aeb855142c22e863e2b10546",
       "size": 16287
@@ -830,8 +1545,8 @@
     },
     {
       "path": "patch/SGTitle000200",
-      "sha256": "ef21c6a6e2ab326b02040c75104a0632e1e6f544a5a401e9b9a3d846a0fe9662",
-      "size": 59416
+      "sha256": "bd514842f3893b522b1e568eab1a8fd8d3644d95941e39b55fccabb3e9b937bf",
+      "size": 11347
     },
     {
       "path": "patch/SGTitle000300",
@@ -855,8 +1570,8 @@
     },
     {
       "path": "patch/SGTitle010300",
-      "sha256": "557ac7e927bf0d39c333d4ca28949c99c55afdca6d1dd49e2edf38e0c1f52c74",
-      "size": 27403
+      "sha256": "ca92ba1d49f7e2a44adbe8e639fdcbe95b7283aa69faa0a07578177ebc25c2be",
+      "size": 29397
     },
     {
       "path": "patch/SGTitle010400",
@@ -867,6 +1582,26 @@
       "path": "patch/SGTitle010500",
       "sha256": "fedc98fdf364737b13dd93bbefb7e5c46bdfe15a183ae9fa16b8df72b1d5484f",
       "size": 11545
+    },
+    {
+      "path": "patch/SGUsDtWnd020000",
+      "sha256": "ec94d157de5704b1ea3da4d508f9d2d94e08fdc62fc1c095c3e2182333859d30",
+      "size": 21398
+    },
+    {
+      "path": "patch/SGUsDtWnd020100",
+      "sha256": "c858f65e39eceb375ee8a1d05eaf8c0ca3c26cb74db391afcd7dab2c4548b8cf",
+      "size": 20426
+    },
+    {
+      "path": "patch/SGUsDtWnd020200",
+      "sha256": "670d0d9b018e7ca51000bd07dc036df0b04e4a8e1f5d7f210085f549c99f0940",
+      "size": 25231
+    },
+    {
+      "path": "patch/SGUsDtWnd020300",
+      "sha256": "6095dbdfa8b2cb61586869f6227cfa703078de54d47fca87e4bf252974939084",
+      "size": 21099
     },
     {
       "path": "patch/SGUsDtWnd990000",
@@ -920,13 +1655,13 @@
     },
     {
       "path": "patch/StartAS2",
-      "sha256": "4b9e2b385e56d85fb15dc50e81fbe766a7c99825c3a8395cd7466d50cd12d9f3",
-      "size": 53250
+      "sha256": "f00da7ee7ceed841215f66ac27a090697d4c5eeb65dbda20fe4b86d47505d9e4",
+      "size": 53092
     },
     {
       "path": "patch/StartAS3",
-      "sha256": "30fae5bb10494902893142f7b8cf5581f04ebd91426d851960bd1032a58dc991",
-      "size": 37537
+      "sha256": "e88db8e31309a2ea72edbd56e275a2251a3c06836eedc17f030df70d4ae9c106",
+      "size": 37560
     },
     {
       "path": "patch/yui_after01",
@@ -935,53 +1670,53 @@
     },
     {
       "path": "patch/yui_after02",
-      "sha256": "e37774ba79ae395f221e303d4387a6a00e9e48f18c70be08c746d2a76b65253e",
-      "size": 32336
+      "sha256": "b5626562a9c2c6926c57b2f70dcb3f472dc0f931323e19cbd14af89c39debb72",
+      "size": 32325
     },
     {
       "path": "patch/yui_after03a",
-      "sha256": "3f439aa880b0bda8dac955533cac1a4352908ec08ab08ce2de81b4d7a208ad93",
-      "size": 45100
+      "sha256": "00e6f0ec71d7fe35bec9d9133b51f49abb5486329f62cc4be52da722c709d4bf",
+      "size": 45101
     },
     {
       "path": "patch/yui_after03b",
-      "sha256": "4045fd4249bda14117b3fbe2898df42a020a1ec19c1cefb1719a371d43a03fc6",
-      "size": 27278
+      "sha256": "24385ae251fb9d6faa585a4334b710d1c57f6922156bcfcb82ec306aa8e1db60",
+      "size": 27273
     },
     {
       "path": "patch/yui_after03c",
-      "sha256": "3cec852c831af428d7493e941b05c71fb3bb66da3bca599ef15b89a62ee59c12",
-      "size": 56618
+      "sha256": "2af4e17ca509100a26ed002669fde1310f1317f9a781b6de22804c3c4785d1af",
+      "size": 56616
     },
     {
       "path": "patch/yui_after04",
-      "sha256": "6077e213fc00e38e6b2055a82a465de066f1cb985a4264bfbf4e0e00a8ef2bcd",
-      "size": 50199
+      "sha256": "4d991d14ceec28a574df4e003952888e3dd2aec6296ff7f262da25471c2ee27d",
+      "size": 50197
     },
     {
       "path": "patch/yui_after05",
-      "sha256": "959a3ed9db1a022b59020c1150059508de775542a6b89aa2f082c48ded611946",
-      "size": 51887
+      "sha256": "96a9c3f5e77ab0f39d511beca854e038b81e3972455fd45b9620b30b6de1c1f3",
+      "size": 51896
     },
     {
       "path": "patch/yui_after06",
-      "sha256": "bfb60d16e1bb548b5b4f67c9a793e657eda31b7d1bee1916518c55d5e61fa0d4",
-      "size": 10553
+      "sha256": "d83057d191e9b19b0f30958e5d515b56fa43f9477fa7ca5a17b994e9e05e8b59",
+      "size": 10557
     },
     {
       "path": "patch/yui_k01a",
-      "sha256": "22d7b7a4c796dd7e5b0f3051f2f0e746cdf9907da0076b001f9dd9f0f483741f",
-      "size": 48828
+      "sha256": "0bfa7507cad5ca43262301120488c965509a5426f8711b43e7323289aaaf5022",
+      "size": 48507
     },
     {
       "path": "patch/yui_k01b",
-      "sha256": "6158f92b3d26f0423cd0c283321228b43765d843453f4db38df6d22b4f115119",
-      "size": 52739
+      "sha256": "c9bd70838d20f4499699b4a42923385d334f99b177843eb25769eefc1423a772",
+      "size": 52706
     },
     {
       "path": "patch/yui_k01c",
-      "sha256": "acf9a9a85eed618490c1394a1cb32e0ce2ad723680af804d83989340fbcc5121",
-      "size": 55324
+      "sha256": "d0075c4a090674cbbf8f1ac2444097abc565376535a24665ff68a49170f793a0",
+      "size": 55317
     },
     {
       "path": "patch/yui_k02",
@@ -990,33 +1725,33 @@
     },
     {
       "path": "patch/yui_k02a",
-      "sha256": "7311d94ba1a05cf95ce41f87d9ec0394bdf0ae5c011e5d8804ba16464e85d0da",
-      "size": 21462
+      "sha256": "77229afd7f00b60ce3c1089722330d0ad69236d4f13818c8f0cdda16357df35b",
+      "size": 21480
     },
     {
       "path": "patch/yui_k03",
-      "sha256": "5ff2949890d61042b9e5de00c44a9c92705a99c5178299d2d20059beed5429c7",
-      "size": 14567
+      "sha256": "00fa333ce851e73f221ed3e7abe98a5d08170961573ad2072b6268cfb8a1d771",
+      "size": 14573
     },
     {
       "path": "patch/yui_k04",
-      "sha256": "c259bacfc6bf7a111f721835d523edf54d6807ec4c4ef96fe1453100cfbae524",
-      "size": 21305
+      "sha256": "9c1d044c02130b4a37a9d4e04d2f8879aa26063512123821e954b8434da6f1ab",
+      "size": 21303
     },
     {
       "path": "patch/yui_old01b",
-      "sha256": "80efddb12f95ea70f022671fa772351de70829940e640058d29b28f66712f1ce",
-      "size": 41258
+      "sha256": "dd75c7b588ebea7d79a20c6ceedfc313c3e2e805afa202417a0e6c96e7896efb",
+      "size": 41246
     },
     {
       "path": "patch/yui_old01c",
-      "sha256": "d4051016ff988abd988467a5236784f7be1876825710882bdfaad42c0b452406",
-      "size": 43616
+      "sha256": "aa4af8b213d9aa5e00494359d85d105d2f59bbb7cf690aa3ac3a28880cf41cbf",
+      "size": 43624
     },
     {
       "path": "patch/yui_old02",
-      "sha256": "6d4f46f0a893b7fb743f7e6dda4545930cec0a24902209ab9e3affb83c4725a0",
-      "size": 54186
+      "sha256": "9612848e106eb90b8ecb907cc14ee3f7def11e2bff8880a94e3748d14fb87359",
+      "size": 54185
     },
     {
       "path": "patch/yui_old03",
@@ -1025,33 +1760,33 @@
     },
     {
       "path": "patch/yui_old03a",
-      "sha256": "c775fd54f5be655c5b9e6b8495571099e499960c3933939c31290367b1727c17",
-      "size": 39285
+      "sha256": "23846debdee2fee3dfe62273b00898d570ac5473f952e40de33d0afaa59a29b3",
+      "size": 39287
     },
     {
       "path": "patch/yui_old04",
-      "sha256": "a6d8cd8bfe75d9fecef36c099bfdef25cd5b9ace1636aa4709efcc2fbb334566",
-      "size": 51805
+      "sha256": "8fce6365d4766682e945282abae1daeb423799b74b07bcaa3ed65e3e4d75a1d1",
+      "size": 51813
     },
     {
       "path": "patch/yui_old05",
-      "sha256": "10f553462fb82e8a51b252833163a1b8dea4f52dead14e1763642e3077beefc6",
-      "size": 54983
+      "sha256": "f874081666261550d80edc06fa5fbe9bf737e18a360206843bb18c10ce910ffd",
+      "size": 54985
     },
     {
       "path": "patch/yui_old05a",
-      "sha256": "e0601b7886d514a9acc96618abef403ee1c15af36bd810ca88bad94b3139e3fc",
-      "size": 41437
+      "sha256": "cb4d175eeef1eeba734c6fbe2bdf2160d51fb0ac227d4fe80965e665f1e86ab1",
+      "size": 41435
     },
     {
       "path": "patch/yui_old06",
-      "sha256": "282a2c4e11b635a0568fbc048e7fa0a9a501c4aa4e93d86cdccd4c4879d9b280",
+      "sha256": "e7e94dfce04a869ac7e1fdc54b2d94e0bc25cf5c650f290159e73b3325766da4",
       "size": 60111
     },
     {
       "path": "patch/yui_re00",
-      "sha256": "dd2aa9559d37cefd502b897e289228a51be6d7a2f8169ccc4ba0c253e1564cc2",
-      "size": 36237
+      "sha256": "0a63a403f56fec3974545a17dcf09df5459a48d40c778bb2e77373ca934ef5cc",
+      "size": 36271
     }
   ]
 }

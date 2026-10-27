@@ -53,7 +53,7 @@ for _lat, _cyr in _RU_F_LOWER.items():
 _CYR_SPECIAL: dict[str, str] = {
     'Ъ': '[',   'Ь': ']',   'ё': '`',
     'э': '{',   'ы': '|',   'я': '}',
-    'Ы': '\xa1',
+    'Ы': ';',
     'ь': '&',
     'ъ': '+',
     'Ю': '%',
@@ -64,7 +64,7 @@ _CYR_SPECIAL: dict[str, str] = {
     '«': '^',
     '»': '@',
     'Э': '=',
-    'Й': 'J',   'й': 'j',
+    'Й': 'J',   '„': '"', '“': '"', 'й': 'j',
 }
 
 # Объединяем: сначала спецсимволы (приоритет), потом основные
@@ -202,7 +202,7 @@ def find_header_row(ws):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def translate_xlsx(input_path: str, output_path: str, preview: int = 0,
-                   fix_quotes: bool = True) -> None:
+                   fix_quotes: bool = False) -> None:
     print(f"Читаем: {input_path}")
     wb = openpyxl.load_workbook(input_path)
 
@@ -323,8 +323,8 @@ def main() -> None:
                         help="Выходной .xlsx файл (по умолчанию: input_ruf.xlsx)")
     parser.add_argument("--preview", type=int, default=0, metavar="N",
                         help="Показать N примеров конвертации без сохранения файла")
-    parser.add_argument("--no-fix-quotes", action="store_true",
-                        help="Не исправлять «» по Original (старое поведение)")
+    parser.add_argument("--fix-quotes", action="store_true",
+                        help="Исправлять «» по Original (по умолчанию отключено)")
 
     args = parser.parse_args()
 
@@ -340,7 +340,7 @@ def main() -> None:
         args.input,
         args.output,
         preview=args.preview,
-        fix_quotes=not args.no_fix_quotes,
+        fix_quotes=args.fix_quotes,
     )
 
 
