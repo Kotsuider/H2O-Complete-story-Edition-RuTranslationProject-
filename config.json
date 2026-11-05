@@ -7,10 +7,10 @@
   "allocate_console": false,
   "file_monitor": {
     "enable": true,
-    "log_all": false,
+    "log_all": true,
     "actions": [
       {
-        "pattern": "^.*[\\\\/]([a-zA-Z0-9_]+)$",
+        "pattern": "^(?:.*[\\\\/])?([a-zA-Z0-9_]+(\\._bp)?)$",
         "redirect": "patch/$1"
       }
     ]

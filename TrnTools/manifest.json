@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-10-30T19:44:45.7668414Z",
-  "version": "0.5.2",
+  "generated_at": "2026-11-05T19:49:09.6448141Z",
+  "version": "0.5.3",
   "files": [
     {
       "path": "ПроверкаОбновленийПеревода.exe",
@@ -825,8 +825,8 @@
     },
     {
       "path": "patch/hayamiother02a",
-      "sha256": "f4d2d5be906e27cd48139498eb174e32563e6a1c4d593d7773eb686e93f9bc48",
-      "size": 30820
+      "sha256": "616f1b612af952c99a8593ac8acad854cb427cee270aeb5fcb74559b87cbf944",
+      "size": 30131
     },
     {
       "path": "patch/hayamiother02b",
@@ -1434,9 +1434,19 @@
       "size": 198755
     },
     {
+      "path": "patch/SGAtogeh010000",
+      "sha256": "ab4ebe9b97741338826f41ce2683c07c587975bb112bd1a86915bc4145800b8c",
+      "size": 34313
+    },
+    {
       "path": "patch/SGAtogeh990000",
       "sha256": "c0d22d00c982a58dd92a491ed6e3485c01a475e47abeb78fb1d25f1c4ca2375d",
       "size": 308689
+    },
+    {
+      "path": "patch/SGCGApp010200",
+      "sha256": "cade68521c98229f9dcdcf6a4ea01c13c1ac63abbaf8e1cd1aa3bfef90d69e6c",
+      "size": 17037
     },
     {
       "path": "patch/SGCGApp990000",
@@ -1474,6 +1484,46 @@
       "size": 1678
     },
     {
+      "path": "patch/SGCnfgWnd020000",
+      "sha256": "c24bbb37a63168d23249fe9e49c50c54b05383b103547b16788c774a53d3c6cb",
+      "size": 1556
+    },
+    {
+      "path": "patch/SGCnfgWnd020100",
+      "sha256": "19ba61da9a2100a85351737973c2f520d6e67811b1217a1ccaddbb5e4b50c881",
+      "size": 1924
+    },
+    {
+      "path": "patch/SGCnfgWnd030000",
+      "sha256": "c24bbb37a63168d23249fe9e49c50c54b05383b103547b16788c774a53d3c6cb",
+      "size": 1556
+    },
+    {
+      "path": "patch/SGCnfgWnd030100",
+      "sha256": "7a944c205ca6957a00e10b0bfbba147514235f0e768abfbebd24d6c1624b7de5",
+      "size": 1924
+    },
+    {
+      "path": "patch/SGCnfgWnd040000",
+      "sha256": "5223cd61bd2bb26787d145684ad1a7696e3c53d66c0e0fdc832d09b5cc616a29",
+      "size": 1557
+    },
+    {
+      "path": "patch/SGCnfgWnd040100",
+      "sha256": "bdd9d061faf4a466154f86f1d107bb7b553e98562a2fb49f97e0ede9bd2096a9",
+      "size": 1684
+    },
+    {
+      "path": "patch/SGCnfgWnd050000",
+      "sha256": "f614fca502f25214c21012d2aec0d4058579f128ba8fb0075f6695607ac5b8b0",
+      "size": 1557
+    },
+    {
+      "path": "patch/SGCnfgWnd050100",
+      "sha256": "53d0fe42c1a92325707bc5a4237f6c1fe3073f7288f41b74d1da3b35350c64af",
+      "size": 1924
+    },
+    {
       "path": "patch/SGCnfgWnd070000",
       "sha256": "d08dbc8b0152e036e4c13923600275ec21d309c24b90f4535459a4c041c5b838",
       "size": 8265
@@ -1482,6 +1532,21 @@
       "path": "patch/SGCnfgWnd070100",
       "sha256": "47b3868d83d73beff80f3906f24aa016ccb62627c3b904256bef3dd507e314b5",
       "size": 8882
+    },
+    {
+      "path": "patch/SGCnfgWnd080000",
+      "sha256": "d7919932c5dd81e60d1c260a85c20c2e1ff4bd92a59a01a297f1d48bb89af817",
+      "size": 8001
+    },
+    {
+      "path": "patch/SGCnfgWnd080100",
+      "sha256": "1e7a8404bf00da744fb4e2992198d1d1b61312ab668ff002178ed67b3d4c7820",
+      "size": 13453
+    },
+    {
+      "path": "patch/SGCnfgWnd080200",
+      "sha256": "a19ea2b67294eb6e5e62a1a15f00938b787ba94f3b0340c723bfc3cdc4163e85",
+      "size": 17272
     },
     {
       "path": "patch/SGCnfgWnd900000",
@@ -1497,6 +1562,11 @@
       "path": "patch/SGCnfgWnd990000",
       "sha256": "b18d18cc54954040a03d6ba3062b9c28ffa22e586d55dae19aab6fbde3c2e76e",
       "size": 473280
+    },
+    {
+      "path": "patch/SGHjmry000200",
+      "sha256": "ab4ebe9b97741338826f41ce2683c07c587975bb112bd1a86915bc4145800b8c",
+      "size": 34313
     },
     {
       "path": "patch/SGMenu000000",
@@ -1554,9 +1624,24 @@
       "size": 90628
     },
     {
+      "path": "patch/SGMusic002800",
+      "sha256": "cade68521c98229f9dcdcf6a4ea01c13c1ac63abbaf8e1cd1aa3bfef90d69e6c",
+      "size": 17037
+    },
+    {
       "path": "patch/SGMusic990000",
       "sha256": "72abb1922b0bec83c93a2a831e02d4693541ca1a325c0030e6358de915cd2e99",
       "size": 892928
+    },
+    {
+      "path": "patch/SGSatuzin000300",
+      "sha256": "ab4ebe9b97741338826f41ce2683c07c587975bb112bd1a86915bc4145800b8c",
+      "size": 34313
+    },
+    {
+      "path": "patch/SGScene010200",
+      "sha256": "cade68521c98229f9dcdcf6a4ea01c13c1ac63abbaf8e1cd1aa3bfef90d69e6c",
+      "size": 17037
     },
     {
       "path": "patch/SGScene990000",
@@ -1567,6 +1652,26 @@
       "path": "patch/SGScene990100",
       "sha256": "6d6f4cafdadc85199532f3b706e9a4e9ea724358605f2441eeb2fcff46464f1c",
       "size": 373232
+    },
+    {
+      "path": "patch/SGSpecial000000",
+      "sha256": "5685a1aa065fc83c254b0a55cc5e0de502e4982c7154316c9a8bc5ca14d808b1",
+      "size": 39166
+    },
+    {
+      "path": "patch/SGSpecial000100",
+      "sha256": "ef1e6beb4f2b2cbed0a12f3dfeac4f7b6d9b3dedf43c8f42bf60168d8180b9e1",
+      "size": 32947
+    },
+    {
+      "path": "patch/SGSpecial000200",
+      "sha256": "26329bc28575642cd0b59bd33284e5cb60628e0d3918937d4ce83ae50568650e",
+      "size": 41144
+    },
+    {
+      "path": "patch/SGSpecial000300",
+      "sha256": "5575c9fb713c5512bf085e094e54b0ebb89319c5153d72d84864acbfddd526ca",
+      "size": 31901
     },
     {
       "path": "patch/SGTitle000000",
@@ -1600,8 +1705,8 @@
     },
     {
       "path": "patch/SGTitle010200",
-      "sha256": "180d7bd8979c8964f5269801ab1172053497c7fb6b005cedb98b8320e38dbe7d",
-      "size": 25308
+      "sha256": "398d38a40fc746b7c7f4008938f496c4d60ffaa924130299f4f000894946a17f",
+      "size": 28618
     },
     {
       "path": "patch/SGTitle010300",
@@ -1697,6 +1802,16 @@
       "path": "patch/StartAS3",
       "sha256": "7853f0dc13d6674f92e2409cfbac038d25de1e5508035b48817e0a6a43c017f7",
       "size": 37560
+    },
+    {
+      "path": "patch/usdtwnd",
+      "sha256": "d5156a363610ebc0f72ea79a904b837370b4ce5cc9debb44f0e1e1f19cf217a3",
+      "size": 4864
+    },
+    {
+      "path": "patch/usdtwnd._bp",
+      "sha256": "d5156a363610ebc0f72ea79a904b837370b4ce5cc9debb44f0e1e1f19cf217a3",
+      "size": 4864
     },
     {
       "path": "patch/yui_after01",
