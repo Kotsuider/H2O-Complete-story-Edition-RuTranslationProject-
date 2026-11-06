@@ -29,7 +29,36 @@
 
 Копируем файлы из `h2o_OUT` в `patch` и готово!
 
-### Графика 
-Для редактирования графики используется BgiImageEncoder.exe и результат так же закидываем в patch 
 
+# Licenses, Credits & Disclaimers
+
+## Copyright & License Notice
+
+This repository contains both original software developed by the repository author and modified/rewritten tools based on third-party open-source code.
+
+### Original Tools & Translation Files
+Copyright (c) 2026 Kotsuider
+* Distributed under the terms of the [MIT License](LICENSE).
+* Applies to original utility scripts, custom translation tools, and modified Russian text assets.
+
+### Rewritten BGI/Ethornell Engine Tools
+Copyright (c) 2026 Kotsuider
+Copyright (c) arcusmaximus (https://github.com/arcusmaximus)
+* Distributed under the terms of the [MIT License](LICENSE).
+* Core asset-handling and parsing logic is based on VNTranslationTools by @arcusmaximus.
+
+---
+
+## Credits & Acknowledgments
+
+* **Original Tooling:** Custom scripts and utilities designed to manage the translation workflow were written entirely from scratch by Kotsuider.
+* **BGI Engine Tooling:** Tools for parsing, text extraction, and injection compatible with the BGI/Ethornell engine were rewritten into Python by the author of this repository. The logic is deeply based on the **[VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools)** project by **[@arcusmaximus](https://github.com/arcusmaximus)**. Special thanks to @arcusmaximus for their invaluable research.
+
+---
+
+## Game Copyright & Non-Commercial Disclaimer
+
+* **Original Game Assets:** All rights to the visual novel, graphics, characters, music, original text, and the **H2O √ after and another Complete story Edition** trademark belong solely to **Makura** (c) 2009. 
+* **Fan Project Nature:** This repository contains a non-commercial, non-profit fan-made text modification (patch). It is distributed for free solely for educational, archival, and entertainment purposes. 
+* **Requirements:** These translation files cannot be used as a standalone product and strictly require the user to already own a legitimate, legally purchased copy of the original game from the copyright holder. This repository does not host original game executables or full copyrighted media assets.
 
