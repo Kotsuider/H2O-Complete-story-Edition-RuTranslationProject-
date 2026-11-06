@@ -53,6 +53,7 @@ Copyright (c) arcusmaximus (https://github.com/arcusmaximus)
 
 * **Original Tooling:** Custom scripts and utilities designed to manage the translation workflow were written entirely from scratch by Kotsuider.
 * **BGI Engine Tooling:** Tools for parsing, text extraction, and injection compatible with the BGI/Ethornell engine were rewritten into Python by the author of this repository. The logic is deeply based on the **[VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools)** project by **[@arcusmaximus](https://github.com/arcusmaximus)**. Special thanks to @arcusmaximus for their invaluable research.
+* **Script Injection Framework:** Dynamic code injection and script loading into the game process utilize the **[UniversalInjectorFramework (UIF)](https://github.com/AtomCrafty/UniversalInjectorFramework)** developed by **[@AtomCrafty](https://github.com/AtomCrafty)**. Special thanks to the author for making this project public and providing invaluable research for the visual novel modding community.
 
 ---
 
