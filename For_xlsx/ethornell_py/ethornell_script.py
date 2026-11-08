@@ -11,12 +11,29 @@ from .disassembler import (
     ScriptStringType,
     EthornellScriptString,
     BaseDisassembler,
+    V0_OPERAND_TEMPLATES,
 )
 from .sjis_tunnel import SjisTunnelEncoding, default_sjis_tunnel
-from .word_wrapper import WordWrapper, ProportionalWordWrapper
+from .word_wrapper import WordWrapper, ProportionalWordWrapper, NoOpWordWrapper
 
 
 class EthornellScript:
+    def _continues_message(self, previous_end: int, current: int) -> bool:
+        """Only carry layout across straight-line V0 instructions without a clear."""
+        pos = previous_end
+        while pos < current:
+            op = struct.unpack_from('<H', self._scenario_data, pos)[0]
+            pos += 2
+            template = V0_OPERAND_TEMPLATES.get(op)
+            if template is None or op in (0x0011, 0x00C2) or 'c' in template:
+                return False
+            for kind in template:
+                if kind == 'z':
+                    pos = self._scenario_data.index(0, pos) + 1
+                else:
+                    pos += 2 if kind == 'h' else 4
+        return pos == current
+
     def __init__(self, data: Optional[bytes] = None):
         self._scenario_data = bytearray(data) if data else bytearray()
         self._strings: List[EthornellScriptString] = []
@@ -81,6 +98,8 @@ class EthornellScript:
 
         provided_idx = 0
         last_matched_str = None
+        pending_line = ""
+        previous_end = None
 
         for eth_str in self._strings:
             if eth_str.type == ScriptStringType.Internal:
@@ -113,7 +132,33 @@ class EthornellScript:
 
                 text = next_str.text
                 if eth_str.type == ScriptStringType.Message:
-                    text = wrapper.wrap(text)
+                    if isinstance(wrapper, NoOpWordWrapper):
+                        pending_line = ""
+                        previous_end = None
+                    op = eth_str.operand_offset - 10
+                    is_v0_message = self._code_offset == 0 and op >= 0 and struct.unpack_from('<H', self._scenario_data, op)[0] == 0x0010
+                    if not is_v0_message or previous_end is None or not self._continues_message(previous_end, op):
+                        pending_line = ""
+                    original = self._read_string(eth_str.text_offset, tunnel)
+                    # English continuation spaces were often stripped in translation.
+                    if pending_line and original.startswith(' ') and text and not text[0].isspace() and not pending_line[-1].isspace():
+                        text = ' ' + text
+                    if pending_line and text:
+                        combined = wrapper.wrap(pending_line + text)
+                        if combined.startswith(pending_line):
+                            text = combined[len(pending_line):]
+                        else:
+                            # A new word cannot fit; do not move already displayed text.
+                            text = '\r\n' + wrapper.wrap(text.lstrip(' '))
+                    else:
+                        text = wrapper.wrap(text)
+                    rendered = pending_line + text
+                    pending_line = rendered.replace('\r\n', '\n').rsplit('\n', 1)[-1]
+                    if is_v0_message and struct.unpack_from('<i', self._scenario_data, op + 6)[0] == 0:
+                        previous_end = op + 14
+                    else:
+                        previous_end = None
+                        pending_line = ""
 
             if text not in string_offsets:
                 offset = self._code_offset + self._code_length + len(string_buffer)
