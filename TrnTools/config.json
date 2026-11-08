@@ -1,9 +1,11 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "game_title": "H2O ~Footprints in the Sand~ √after and another",
   "check_process": "BGI.exe",
   "manifest_url": "https://raw.githubusercontent.com/Kotsuider/H2O-Complete-story-Edition-RuTranslationProject-/main/TrnTools/manifest.json",
   "files_base_url": "https://raw.githubusercontent.com/Kotsuider/H2O-Complete-story-Edition-RuTranslationProject-/main",
+  "manifest_mirror_1_url": "https://codeberg.org/Kotsuider/H2O-Complete-story-Edition-RuTranslationProject-/raw/branch/main/TrnTools/manifest.json",
+  "files_base_mirror_1_url": "https://codeberg.org/Kotsuider/H2O-Complete-story-Edition-RuTranslationProject-/raw/branch/main",
   "updater": [
     {
       "state": "true"

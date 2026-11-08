@@ -119,3 +119,5 @@ TrnTools/ManifestBuilder.exe
 Обновить_Манифест.bat
 For_xlsx/h2o_ruf.xlsx.bak
 /work_file_fix
+TrnTools/UpdateManifest.ps1
+ПроверкаОбновленийПеревода.exe.before-mirrors.bak
