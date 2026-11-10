@@ -4,7 +4,7 @@
 
 | ID | Original | Translation |
 |---|---|---|
-| 1.1 | Go over there | Подойти к ней |
+| 1.1 | Go over there | Подойти |
 | 1.2 | Think up a plan | Придумать план |
 
 ## hayami_a05c
@@ -58,8 +58,8 @@
 |---|---|---|
 | 1.1 | Like Hayami-chan?    | Как Хаями? |
 | 1.2 | Like Hinata-chan?    | Как Хината? |
-| 1.3 | Like Yui?    | Как Юи? |
-| 1.4 | Like Hamaji-chan?    | Как Хамадзи? |
+| 1.3 | Like Yui?    | Как Табата? |
+| 1.4 | Like Hamaji-chan?    | Как Хамаджи? |
 
 ## old_hayami_08a
 
