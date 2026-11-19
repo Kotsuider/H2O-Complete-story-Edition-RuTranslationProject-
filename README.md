@@ -7,11 +7,13 @@
 ## Статус
 
 **Progress:**
-`[▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩] 100%`
+`[▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▢▢] 90%`
 
 - [x] Полный перевод
 - [x] Перевод графики
 - [x] Редактура
+- [ ] вычитка (10%)
+- [ ] Перевод видео
 
 [Таблица с переводом](https://docs.google.com/spreadsheets/d/1W_IoG1-Khw1V3mISkmLECusFw5K96owc/edit?usp=sharing&ouid=103224880279791937700&rtpof=true&sd=true)
 

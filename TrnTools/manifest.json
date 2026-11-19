@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-11-10T20:31:18.4695959Z",
-  "version": "0.7.3",
+  "generated_at": "2026-11-19T02:15:54.4116722Z",
+  "version": "0.7.4",
   "files": [
     {
       "path": "ПроверкаОбновленийПеревода.exe",
@@ -2325,7 +2325,7 @@
     },
     {
       "path": "patch/hayamiafter03a",
-      "sha256": "12dc6dfaf6e32609befff1538ec88286f30e7e3d06279721f6557231df29d87f",
+      "sha256": "90d46177072f645462d3b585fa31826f5d7d7d67c1daf637eac4d427f8481691",
       "size": 48265
     },
     {
@@ -2400,7 +2400,7 @@
     },
     {
       "path": "patch/hayami_a01b",
-      "sha256": "a80fdc487434345a18e4de6df4100a35eb601754fa1158b970247081709a30a1",
+      "sha256": "4c89952a0ad0d98449a8bde734266a9590b31ced6c26e61abf5cec783205a6eb",
       "size": 53352
     },
     {
@@ -2420,8 +2420,8 @@
     },
     {
       "path": "patch/hayami_a04b",
-      "sha256": "051b6fae8327f482b6bb3e696492780e7f1c960f26a58ad22a5d236ca20d0bf2",
-      "size": 45099
+      "sha256": "88217055ef849121b8c056bf92a8a4b63f18ca3e1dc0e17448520d7cdd7cde63",
+      "size": 45105
     },
     {
       "path": "patch/hayami_a05a",
@@ -2445,8 +2445,8 @@
     },
     {
       "path": "patch/hayami_aa01",
-      "sha256": "7de79529522642b52a1d4a1a672847d914d40246276e74ddcb5d02e97e4d7cf4",
-      "size": 48544
+      "sha256": "136bfb9ed0dd4646bd2561c03ba182a9323c509a3fab6b291413d7cfb2daf245",
+      "size": 48504
     },
     {
       "path": "patch/hayami_aa02",
@@ -2475,8 +2475,8 @@
     },
     {
       "path": "patch/hayami_aa06",
-      "sha256": "bd6813c0bdc30bf1c66dc69813d313303d5e098012e41f7e90100c56d146fc7a",
-      "size": 36598
+      "sha256": "23b4722104e58f059c61babcfd08adbd2e10066f7fecd1015ba62d9376ccd5e0",
+      "size": 36600
     },
     {
       "path": "patch/hayami_aa07",
@@ -2500,8 +2500,8 @@
     },
     {
       "path": "patch/hayami_aa11",
-      "sha256": "737f86ed1e6a85eccd477c17bd33fa889645fce1dce31adef92f2643d251f44e",
-      "size": 21306
+      "sha256": "7282cc51bc23366697a1ace7bf768fd84b91d29601fc5c639fddbed1c4a91388",
+      "size": 21203
     },
     {
       "path": "patch/hayami_aa12",
@@ -2510,13 +2510,13 @@
     },
     {
       "path": "patch/hayami_aa13",
-      "sha256": "79d0fdf3dc70d583459485be62f3d534ee4efe8a3e56518487f0a7c3416360a3",
-      "size": 35499
+      "sha256": "5d616cb4866f0f239a7583cb69ab58fe18f7386d63dca8741b744a41a09f30d2",
+      "size": 35490
     },
     {
       "path": "patch/hayami_aa14",
-      "sha256": "a45f7fc44c027a7dc604a10d02972f3e1a993ad4c16c38aa752a37bef54a79e0",
-      "size": 29226
+      "sha256": "6cd1ee52edf46a968aae0b850e0822472e6ab3fd1bf427ee038e82ad4cec9a3b",
+      "size": 29201
     },
     {
       "path": "patch/hayami_af",
@@ -2565,18 +2565,18 @@
     },
     {
       "path": "patch/hinataother01a",
-      "sha256": "3567f3e29494794c33b17f4e7aa0a503ca779b78683088438c986960db2176a1",
-      "size": 38683
+      "sha256": "4275664b0026d7cc0be13483b0597e17b1521c5d6e135ab50a403c2672929d10",
+      "size": 38684
     },
     {
       "path": "patch/hinataother01b",
-      "sha256": "dc90d08eef1673ea546c3aa6cdefe168f70b6fc564aa54352c1eaec25543100e",
-      "size": 25650
+      "sha256": "ce6e68bdad5fa418cc546d5bd5ac5d5694dfe82b1edd2b48b4e31e51f16539fc",
+      "size": 25643
     },
     {
       "path": "patch/hinataother02a",
-      "sha256": "5fae78b92e772066cfae7a839cea46d208aa1a7df4c668f0c90327b72468d1ce",
-      "size": 39790
+      "sha256": "75d6b4b0e273e59b41da760668242c34f40e618d74f507e45ab830f976f41cbb",
+      "size": 39792
     },
     {
       "path": "patch/hinataother02b",
@@ -2640,8 +2640,8 @@
     },
     {
       "path": "patch/kyoutu2",
-      "sha256": "13c978a676a13097fce535fa6ee52473a934d97cae852e9ca6aa18a8c9ef89f2",
-      "size": 52881
+      "sha256": "ff65dafb472815f1b77617cd7d6482cd1546ff17f0991835d12c9273c0803d9c",
+      "size": 52889
     },
     {
       "path": "patch/kyoutu3_hinata",
@@ -2840,8 +2840,8 @@
     },
     {
       "path": "patch/old_hinata_08c",
-      "sha256": "e264d8d509388b0eca82f9b25ac1c8ac3ed2e4af764103a365e8e6ffd0dc29d0",
-      "size": 40831
+      "sha256": "916ff1a29d6a0b31847d04492863487391da633779227e1eae6227095f719ecc",
+      "size": 40839
     },
     {
       "path": "patch/old_otoha_08a",
@@ -2915,18 +2915,18 @@
     },
     {
       "path": "patch/re_hayami_02a",
-      "sha256": "da0d3580257f572bf9603f66856964c295aad7e09a3a1152b53050f34456ee7c",
-      "size": 56120
+      "sha256": "26f346241c9b1a721a44698f2e3aa94e46c00661cf09d099156ac2a2f4450675",
+      "size": 56126
     },
     {
       "path": "patch/re_hayami_02b",
-      "sha256": "a3f6471807ac404cc788a828a5582e5333667481bd241d01eb442a5ad974db4d",
-      "size": 34655
+      "sha256": "aa149186e1b9feea0b9d45674844b1af9fcf765b1125790a7d2e796ee7430b09",
+      "size": 34665
     },
     {
       "path": "patch/re_hayami_03a",
-      "sha256": "d8d5ed6f80e1ec60fbade69206c6940041e836770081c2de0e6780e9fc6cb922",
-      "size": 46419
+      "sha256": "461c552db6e425883ea0c31ce34afe4558222b4e0eaedb149b4b2332c2e53a18",
+      "size": 46428
     },
     {
       "path": "patch/re_hinata_01a",
@@ -3022,6 +3022,16 @@
       "path": "patch/SGAtogeh990000",
       "sha256": "c0d22d00c982a58dd92a491ed6e3485c01a475e47abeb78fb1d25f1c4ca2375d",
       "size": 308689
+    },
+    {
+      "path": "patch/SGBlndInf000000",
+      "sha256": "1eb9f16d1a4fa9a0a935f9cd69b4af54fc86d61e2c81db705b4dd54115ad9eaf",
+      "size": 24949
+    },
+    {
+      "path": "patch/SGBlndInf000100",
+      "sha256": "8ed0e75d73216c52657aa9bb98c6ac6418ac0ed14646cf8d0c4ce5b80f4188d3",
+      "size": 28734
     },
     {
       "path": "patch/SGBlndInf990000",
@@ -3300,23 +3310,23 @@
     },
     {
       "path": "patch/SGTitle000000",
-      "sha256": "2d804d847b8d4e8e611adfc34fcd557738091e64aeb855142c22e863e2b10546",
-      "size": 16287
+      "sha256": "f7e5fcbce237eb3f4b9a5a4aadf831c99a4a8abbede2b2d1d9cd1bab6a0bca6e",
+      "size": 14361
     },
     {
       "path": "patch/SGTitle000100",
-      "sha256": "0185e1de216bed2c625d562cb08edf933b18aa60708836cfc47788a3b5036c0c",
-      "size": 19124
+      "sha256": "8c3f1d49e5f0073db0f5c2b5f3e5f8955a466142f8c499222c341d9d40ca1cfb",
+      "size": 17166
     },
     {
       "path": "patch/SGTitle000200",
-      "sha256": "bd514842f3893b522b1e568eab1a8fd8d3644d95941e39b55fccabb3e9b937bf",
-      "size": 11347
+      "sha256": "1fd9bed2aa4581253090d0206a187edf40a6804e275a32d5fa26a23aa0d2efd6",
+      "size": 12898
     },
     {
       "path": "patch/SGTitle000300",
-      "sha256": "da343a3b137e0cb0f20e46b2561a5de3e7413b0a3ef2fe0dec00867865fe5512",
-      "size": 14651
+      "sha256": "2c2fee791a43e138fa39e663cfb4f669f4d475b688f4a80e5f337b1863372e37",
+      "size": 13055
     },
     {
       "path": "patch/SGTitle010000",
@@ -3425,8 +3435,8 @@
     },
     {
       "path": "patch/StartAS2",
-      "sha256": "c989bea371650c522c945d814bc3d738918a2eea951afea7ef59fafa87c0779c",
-      "size": 53108
+      "sha256": "26bf9cf5bcec271ca13d5416bd6c3e7ffa7318edb6b9378e0610e8105f5f2f93",
+      "size": 53048
     },
     {
       "path": "patch/StartAS3",
